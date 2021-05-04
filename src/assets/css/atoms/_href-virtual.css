@@ -1,0 +1,6 @@
+.href-virtual {
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+}

@@ -1,0 +1,6 @@
+.btn-price {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+}

@@ -1,0 +1,15 @@
+@import './reset.css';
+@import './roots.css';
+
+/* ATOMS */
+@import './atoms/_price.css';
+@import './atoms/_href-virtual.css';
+@import './atoms/_social-network.css';
+@import './atoms/_duration-container.css';
+@import './atoms/_see-more-destinations.css';
+@import './atoms/_activitie-title.css';
+@import './atoms/_icon-hashtag.css';
+
+/* MOLECULES */
+
+/* ORGANISM */
