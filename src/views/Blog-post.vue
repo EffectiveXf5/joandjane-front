@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h1 class="activitie-title">Todos los destinos</h1>
+    <h1 class="activitie-title">Blog Post</h1>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Destination',
+  name: 'Blog-post',
 }
 </script>
 

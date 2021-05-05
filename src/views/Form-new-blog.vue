@@ -3,14 +3,14 @@
     <i class="fab fa-facebook social-network"></i>
     <i class="fas fa-hashtag icon-hashtag"></i>
 
-    <h1 class="activitie-title">Todas las experiencias</h1>
+    <h1 class="activitie-title">Formulario Nuevo Blog Post</h1>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Experiences',
+  name: 'Nuevo-blog',
 }
 </script>
 
