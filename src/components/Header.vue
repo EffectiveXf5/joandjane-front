@@ -35,14 +35,12 @@ export default {
 .menu-nav {
     font-size: 1.4em;
     margin-left:-45%;
-   
-    
-   
 }
 .menu-nav li {
     margin-right: 2%;
     padding: 2% 0 2% 0;
     font-weight: bolder;
+    cursor: pointer;
 }
 #virtual {
     background-color: black;
