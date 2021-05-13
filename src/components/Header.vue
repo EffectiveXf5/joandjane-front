@@ -32,6 +32,9 @@ export default {
     margin-left: 5%;
     font-size: 2em;
 }
+#titulo-header:hover {
+   cursor:pointer;
+   }
 .menu-nav {
     font-size: 1.4em;
     margin-left:-45%;
@@ -40,7 +43,11 @@ export default {
     margin-right: 2%;
     padding: 2% 0 2% 0;
     font-weight: bolder;
-    cursor: pointer;
+}
+.menu-nav li:hover {
+   cursor: pointer;
+   color:white;
+   font-weight: bold;
 }
 #virtual {
     background-color: black;
