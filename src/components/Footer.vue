@@ -30,9 +30,9 @@
                     <img src="../assets/footer-icons/pago-encriptacion.png" alt="logo pago encriptado">
                 </article>
                 <article class="footer__section-social-media">
-                    <img src="../assets/footer-icons/facebook.svg" alt="logo facebook">
-                    <img src="../assets/footer-icons/instagram.svg" alt="logo instagram">
-                    <img src="../assets/footer-icons/linkedin.svg" alt="logo linkedin">
+                    <img src="../assets/footer-icons/facebook.svg" alt="logo facebook" class="rrss-icon">
+                    <img src="../assets/footer-icons/instagram.svg" alt="logo instagram" class="rrss-icon">
+                    <img src="../assets/footer-icons/linkedin.svg" alt="logo linkedin" class="rrss-icon">
                 </article>
                 <article class="footer__section-google">
                     <img src="../assets/footer-icons/logo-google.png" alt="logo google">
@@ -89,7 +89,7 @@ footer{
     .footer__section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(3);
         row-gap: 1rem;
         margin-right: 1rem;
         margin-left: 1rem;
@@ -107,15 +107,32 @@ footer{
         grid-row: 1/3;
         text-align: left;
     }
+    .footer__section-contact-us img{
+        width: 2.3rem;
+    }
 
     .footer__section-pay{
         grid-column: 1;
         grid-row: 1/3;
         margin-top: 10rem;
+        align-items: center;
     }
 
-    .footer__section-contact-us img{
-        width: 2rem;
+
+    .footer__section-social-media{
+        grid-column: 2;
+        grid-row: 2/3;
+        margin-top: 15rem;
+        text-align: center;
+    }
+    .rrss-icon{
+        padding-right: 1rem;
+    }
+
+    .footer__section-google{
+        grid-column: 1/3;
+        grid-row: 3;
+        text-align: center;
     }
 
 }
