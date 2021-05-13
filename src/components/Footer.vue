@@ -20,14 +20,16 @@
                 </article>
                 <article class="footer__section-pay">
                     <h3>PAGA CON</h3>
-                    <img src="../assets/footer-icons/logo-bizum.png" alt="logo bizum">
-                    <img src="../assets/footer-icons/logo-mastercard.png" alt="logo mastercard">
-                    <img src="../assets/footer-icons/logo-americanexpress.png" alt="logo american express">
-                    <img src="../assets/footer-icons/logo-visa.png" alt="logo visa">
-                    <img src="../assets/footer-icons/logo-stripe.png" alt="logo stripe">
-                    <img src="../assets/footer-icons/logo-tick.png" alt="logo tick">
-                    <img src="../assets/footer-icons/pago-seguro.png" alt="logo pago seguro">
-                    <img src="../assets/footer-icons/pago-encriptacion.png" alt="logo pago encriptado">
+                    <div class="pay-icons">
+                        <img src="../assets/footer-icons/logo-bizum.png" alt="logo bizum">
+                        <img src="../assets/footer-icons/logo-mastercard.png" alt="logo mastercard">
+                        <img src="../assets/footer-icons/logo-americanexpress.png" alt="logo american express">
+                        <img src="../assets/footer-icons/logo-visa.png" alt="logo visa">
+                        <img src="../assets/footer-icons/logo-stripe.png" alt="logo stripe">
+                        <img src="../assets/footer-icons/logo-tick.png" alt="logo tick">
+                        <img src="../assets/footer-icons/pago-seguro.png" alt="logo pago seguro">
+                        <img src="../assets/footer-icons/pago-encriptacion.png" alt="logo pago encriptado">
+                    </div>
                 </article>
                 <article class="footer__section-social-media">
                     <img src="../assets/footer-icons/facebook.svg" alt="logo facebook" class="rrss-icon">
@@ -70,7 +72,62 @@ footer{
     }
 }
 
+
+
 @media (max-width: 999px) and (min-width: 425px) {
+    #footer__title{
+        color: var(--primary-color);
+        background-color: black;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        margin-bottom:1rem;
+    }
+
+    .footer__section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3);
+        margin-right: 1rem;
+        margin-left: 1rem;
+        font-size:0.8rem;
+        line-height: 1.8rem;
+        column-gap: 2rem;
+    }
+
+    .footer__section-about-us{
+        grid-column: 1;
+        grid-row: 1/1;
+    }
+
+    .footer__section-contact-us{
+        grid-column: 2;
+        grid-row: 1/2;
+    }
+    .footer__section-contact-us img{
+        width: 2.3rem;
+    }
+
+    .footer__section-pay{
+        grid-column: 3;
+        grid-row: 1/2;
+    }
+
+
+    .footer__section-social-media{
+        grid-column: 2;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    .rrss-icon{
+        padding-right: 1rem;
+    }
+
+    .footer__section-google{
+        grid-column: 1/3;
+        grid-row: 3;
+        text-align: center;
+    }
 
 }
 
@@ -79,9 +136,7 @@ footer{
         color: var(--primary-color);
         background-color: black;
         text-align: center;
-        font-size: 1.625rem;
-        padding-top: 0.3rem;
-        padding-bottom: 0.3rem;
+        font-size: 1.4rem;
         letter-spacing: 2px;
         margin-bottom:1rem;
     }
@@ -93,7 +148,7 @@ footer{
         row-gap: 1rem;
         margin-right: 1rem;
         margin-left: 1rem;
-        font-size:1rem;
+        font-size:0.9rem;
         line-height: 1.8rem;
     }
 
