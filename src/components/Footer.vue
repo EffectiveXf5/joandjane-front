@@ -13,14 +13,34 @@
                 <article class="footer__section-contact-us">
                     <h3>CONTÁCTANOS</h3>
                     <p>Nuestro horario de att. al cliente es de lunes a domingo de 9 a 20 horas</p>
-                    <i class="fas fa-mobile-alt"></i><p>644 184 492</p>
-                    <i class="far fa-envelope-open"></i><p>hola@joandjane.es</p>
-                    <i class="fas fa-map-marker-alt"></i><p>Coworking Edificio Impulsa Parque<br>Científico-Tecnológico de Gijón CP<br>33203 Asturias (España)</p>
+                    <p><i class="fas fa-mobile-alt"></i>&nbsp;644 184 492</p>
+                    <p><i class="far fa-envelope-open"></i>&nbsp;hola@joandjane.es</p>
+                    <p><i class="fas fa-map-marker-alt"></i>&nbsp;Coworking Edificio Impulsa Parque Científico-Tecnológico de Gijón<br>CP 33203 Asturias (España)</p>
+                    <img src="../assets/footer-icons/whatsapp.png" alt="icono whatsapp">
                 </article>
-
-
-
+                <article class="footer__section-pay">
+                    <h3>PAGA CON</h3>
+                    <img src="../assets/footer-icons/logo-bizum.png" alt="logo bizum">
+                    <img src="../assets/footer-icons/logo-mastercard.png" alt="logo mastercard">
+                    <img src="../assets/footer-icons/logo-americanexpress.png" alt="logo american express">
+                    <img src="../assets/footer-icons/logo-visa.png" alt="logo visa">
+                    <img src="../assets/footer-icons/logo-stripe.png" alt="logo stripe">
+                    <img src="../assets/footer-icons/logo-tick.png" alt="logo tick">
+                    <img src="../assets/footer-icons/pago-seguro.png" alt="logo pago seguro">
+                    <img src="../assets/footer-icons/pago-encriptacion.png" alt="logo pago encriptado">
+                </article>
+                <article class="footer__section-social-media">
+                    <img src="../assets/footer-icons/facebook.svg" alt="logo facebook">
+                    <img src="../assets/footer-icons/instagram.svg" alt="logo instagram">
+                    <img src="../assets/footer-icons/linkedin.svg" alt="logo linkedin">
+                </article>
+                <article class="footer__section-google">
+                    <img src="../assets/footer-icons/logo-google.png" alt="logo google">
+                </article>
             </section>
+
+
+
 
         </footer>
     </div>
@@ -36,15 +56,67 @@ export default {
 
 footer{
     background-color: var(--primary-color);
-    position: absolute;
+    font-family: var(--primary-font-family);
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: justify;
 }
 
-#greetings{
-    color: var(--primary-color);
-    background-color: black;
+
+@media (min-width: 1000px) {
+        .footer__section-contact-us img{
+        width: 2rem;
+    }
 }
 
+@media (max-width: 999px) and (min-width: 425px) {
+
+}
+
+@media (max-width: 424px) {
+    #footer__title{
+        color: var(--primary-color);
+        background-color: black;
+        text-align: center;
+        font-size: 1.625rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        letter-spacing: 2px;
+        margin-bottom:1rem;
+    }
+
+    .footer__section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        font-size:1rem;
+        line-height: 1.8rem;
+    }
+
+    .footer__section-about-us{
+        grid-column: 1;
+        grid-row: 1/1;
+    }
+
+    .footer__section-contact-us{
+        grid-column: 2;
+        grid-row: 1/3;
+        text-align: left;
+    }
+
+    .footer__section-pay{
+        grid-column: 1;
+        grid-row: 1/3;
+        margin-top: 10rem;
+    }
+
+    .footer__section-contact-us img{
+        width: 2rem;
+    }
+
+}
 </style>
