@@ -49,6 +49,7 @@ export default {
    color:white;
    font-weight: bold;
 }
+
 #virtual {
     background-color: black;
     color: var(--primary-color);
