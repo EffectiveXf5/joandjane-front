@@ -3,7 +3,7 @@
     <h2>NUEVA EXPERIENCIA</h2>
 
     <section>
-      <form>
+      <form class="section__form">
         <label>Título de la actividad:</label>
         <input type="text" v-model="activity.title" placeholder="Titulo">
 
@@ -88,12 +88,12 @@
         <input v-model="activity.location" type="text">
 
         <label>Prepara tu experiencia:</label>
-        <textarea cols="40" rows="10"></textarea>
+        <textarea v-model="activity.prepare_experience" cols="40" rows="10"></textarea>
 
         <label>Valoraciones:</label>
-        <input type="text">
-        <input type="date">
-        <input type="text">
+        <input v-model="activity.reviews" type="text">
+        <input v-model="activity.reviews" type="date">
+        <input v-model="activity.reviews" type="text">
         <textarea cols="30" rows="10"></textarea>
       </form>
     </section>
@@ -104,9 +104,18 @@
 
 export default {
   name: 'Nueva-experiencia',
+
+  data() {
+    return {
+      activity: ''
+    }
+  },
 }
+
 </script>
 
 <style scoped>
+
+  
 
 </style>
