@@ -3,7 +3,7 @@
     <h2>NUEVA EXPERIENCIA</h2>
 
     <section>
-      <form class="section__form">
+      <form class="section__form" @submit.prevent="sendForm">
         <label>Título de la actividad:</label>
         <input type="text" v-model="activity.title" placeholder="Titulo">
 
@@ -91,10 +91,13 @@
         <textarea v-model="activity.prepare_experience" cols="40" rows="10"></textarea>
 
         <label>Valoraciones:</label>
-        <input v-model="activity.reviews" type="text">
-        <input v-model="activity.reviews" type="date">
-        <input v-model="activity.reviews" type="text">
+        <input v-model="activity.reviews.name" type="text">
+        <input v-model="activity.reviews.date" type="date">
+        <input v-model="activity.reviews.stars" type="text">
+        <textarea v-model="activity.reviews.comment"></textarea>
         <textarea cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Enviar">
       </form>
     </section>
   </div>
@@ -107,15 +110,51 @@ export default {
 
   data() {
     return {
-      activity: ''
+      activity: {
+        title: '',
+        price: '',
+        destination: '',
+        type: '',
+        sumary: '',
+        duration: '',
+        cancelation: '',
+        children: '',
+        instant_confirmation: '',
+        mobile_ticket: '',
+        pet_friendly: '',
+        experience_details: '',
+        includes: '',
+        location: '',
+        prepare_experience: '',
+        reviews: {
+          name: '',
+          date: '',
+          stars: '',
+          comment: ''
+        }
+      }
     }
   },
+
+  methods: {
+    sendForm() {
+      this.axios.post('/activity/create-activity', this.activity)
+        .then( res => {
+          this.activity.push(res.data)
+          this.activity = {}
+        })
+
+        .catch( e => {
+          return e.response
+        })
+    }
+  }
 }
 
 </script>
 
 <style scoped>
 
-  
+
 
 </style>
