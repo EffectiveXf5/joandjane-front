@@ -192,7 +192,6 @@ footer{
     .footer__section-about-us{
         grid-column: 1;
         grid-row: 1/1;
-        padding-left: 5rem;
     }
 
     /* CONTACT */
@@ -200,7 +199,7 @@ footer{
     .footer__section-contact-us{
         grid-column: 2;
         grid-row: 1/2;
-        padding-left: 5rem;
+
     }
     .footer__section-contact-us img{
         width: 2.3rem;
@@ -211,7 +210,7 @@ footer{
     .footer__section-pay{
         grid-column: 3;
         grid-row: 1/2;
-        padding-left: 5rem;
+
     }
     .pay-method{
         display: block;
@@ -225,7 +224,7 @@ footer{
 
     .footer_section-social{
         display:flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
@@ -248,11 +247,8 @@ footer{
        width: 4rem;
     }
     hr{
-        width: 10em;
-        height: 5px;
-        background-color: black;
+        display: none;
     }
-
 }
 
 @media (max-width: 424px) {
@@ -333,9 +329,7 @@ footer{
        width: 4rem;
     }
     hr{
-        width: 40px;
-        height: 5px;
-        background-color: black;
+        display: none;
     }
 
 }
