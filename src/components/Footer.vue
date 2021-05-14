@@ -23,10 +23,16 @@
                     <div class="pay-icons">
                         <img src="../assets/footer-icons/logo-bizum.png" alt="logo bizum">
                         <img src="../assets/footer-icons/logo-mastercard.png" alt="logo mastercard">
+                    </div>
+                    <div class="pay-icons">
                         <img src="../assets/footer-icons/logo-americanexpress.png" alt="logo american express">
                         <img src="../assets/footer-icons/logo-visa.png" alt="logo visa">
+                    </div>
+                    <div class="pay-icons">
                         <img src="../assets/footer-icons/logo-stripe.png" alt="logo stripe">
                         <img src="../assets/footer-icons/logo-tick.png" alt="logo tick">
+                    </div>
+                    <div class="pay-icons">
                         <img src="../assets/footer-icons/pago-seguro.png" alt="logo pago seguro">
                         <img src="../assets/footer-icons/pago-encriptacion.png" alt="logo pago encriptado">
                     </div>
@@ -38,6 +44,9 @@
                 </article>
                 <article class="footer__section-google">
                     <img src="../assets/footer-icons/logo-google.png" alt="logo google">
+                </article>
+                <article class="footer__section-joandjane">
+                    <img src="../assets/images/logo negro.png" alt="logo joandjane" class="logo-footer-jo">
                 </article>
             </section>
 
@@ -60,7 +69,7 @@ footer{
     background-color: var(--primary-color);
     font-family: var(--primary-font-family);
     /* position: absolute; */
-    bottom: 0;
+    /* bottom: 0; */
     width: 100%;
     text-align: justify;
 }
@@ -79,7 +88,7 @@ footer{
         color: var(--primary-color);
         background-color: black;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         letter-spacing: 2px;
         margin-bottom:1rem;
     }
@@ -90,7 +99,7 @@ footer{
         grid-template-rows: repeat(3);
         margin-right: 1rem;
         margin-left: 1rem;
-        font-size:0.8rem;
+        font-size:0.9rem;
         line-height: 1.8rem;
         column-gap: 2rem;
     }
@@ -112,11 +121,14 @@ footer{
         grid-column: 3;
         grid-row: 1/2;
     }
-
+    .pay-icons{
+        display: block;
+    align-items: center;
+    }
 
     .footer__section-social-media{
-        grid-column: 2;
-        grid-row: 2/3;
+        grid-column: 3;
+        grid-row: 2;
         text-align: center;
     }
     .rrss-icon{
@@ -124,9 +136,18 @@ footer{
     }
 
     .footer__section-google{
-        grid-column: 1/3;
-        grid-row: 3;
+        grid-column: 2;
+        grid-row: 2;
         text-align: center;
+    }
+
+    .footer__section-joandjane{
+        grid-column: 1;
+        grid-row: 2;
+        text-align: center;
+    }
+    .logo-footer-jo{
+        width: 5rem;
     }
 
 }
@@ -188,6 +209,9 @@ footer{
         grid-column: 1/3;
         grid-row: 3;
         text-align: center;
+    }
+    .footer__section-joandjane{
+        display:none;
     }
 
 }
