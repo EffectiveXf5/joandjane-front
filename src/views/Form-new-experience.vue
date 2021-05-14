@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <h2>NUEVA EXPERIENCIA</h2>
+  <main class="main">
+    <h2 class="main__title">NUEVA EXPERIENCIA</h2>
 
-    <section>
-      <form class="section__form" @submit.prevent="sendForm">
-        <label>Título de la actividad:</label>
-        <input type="text" v-model="activity.title" placeholder="Titulo">
+    <section class="main__section">
+      <form class="main__section-form" @submit.prevent="sendForm">
+        <label class="label">Título de la actividad:</label>
+        <input class="input" type="text" v-model="activity.title" placeholder="Titulo">
 
-        <label>Precio:</label>
-        <input type="text" v-model="activity.price" placeholder="Precio">
+        <label class="label">Precio:</label>
+        <input class="input" type="text" v-model="activity.price" placeholder="Precio">
 
-        <label>Fotos:</label>
-        <input type="file" placeholder="Fotos">
+        <label class="label">Fotos:</label>
+        <input class="input" @change="clickImage" type="file" accept="image/*" placeholder="Fotos">
 
-        <label>Destino:</label>
-        <select v-model="activity.destination">
+        <label class="label">Destino:</label>
+        <select class="input" v-model="activity.destination">
           <option disabled value="">Seleccione un destino</option>
           <option value="Arriondas">Arriondas</option>
           <option value="Gijón">Gijón</option>
@@ -34,8 +34,9 @@
           <option value="Tapia de Casariego">Tapia de Casariego</option>Somiedo
         </select>
 
-        <label>Tipo de Actividad:</label>
-        <select v-model="activity.type">
+        <label class="label">Tipo de Actividad:</label>
+        <select class="input" v-model="activity.type">
+          <option disabled value="">Tipo de Actividad</option>
           <option value="Actividades al aire libre">Actividades al aire libre</option>
           <option value="Rutas 4x4 y motor">Rutas 4x4 y motor</option>
           <option value="Actividades acuaticas">Actividades acuaticas</option>
@@ -44,32 +45,49 @@
           <option value="Niños">Niños</option>
         </select>
 
-        <label>Resumen actividad:</label>
-        <textarea v-model="activity.sumary" cols="40" rows="10"></textarea>
+        <label class="label">Resumen actividad:</label>
+        <textarea class="input" v-model="activity.sumary" cols="40" rows="10"></textarea>
 
-        <label>Duración:</label>
-        <input v-model="activity.duration" type="text">
+        <label class="label">Duración:</label>
+        <input class="input" v-model="activity.duration" type="text">
 
-        <label>Cancelación:</label>
-        <input v-model="activity.cancelation" type="text">
+        <label class="label">Cancelación:</label>
+        <input class="input" v-model="activity.cancelation" type="text">
 
-        <label>Niños:</label>
-        <input type="checkbox" v-model="activity.children">
+        <label class="label option">Niños:</label>
+        <select class="input" v-model="activity.children">
+          <option disabled value="">Seleccione opción</option>
+          <option value="true">Si</option>
+          <option value="no">No</option>
+        </select>
 
-        <label>Confirmación:</label>
-        <input type="checkbox" v-model="activity.instant_confirmation">
+        <label class="label">Confirmación:</label>
+        <select class="input" v-model="activity.instant_confirmation">
+          <option disabled value="">Seleccione el tipo</option>
+          <option value="Instantánea">Instantanea</option>
+          <option value="Próxima">Próxima</option>
+        </select>
 
-        <label>Ticket móvil:</label>
-        <input type="checkbox" v-model="activity.mobile_ticket">
+        <label class="label option">Ticket móvil:</label>
+        <select class="input" v-model="activity.mobile_ticket">
+          <option disabled value="">Seleccione opción</option>
+          <option value="true">Si</option>
+          <option value="false">No</option>
+        </select>
 
-        <label>Pet-friendly:</label>
-        <input type="checkbox" v-model="activity.pet_friendly">
+        <label class="label option">Pet-friendly:</label>
+        <select class="input" v-model="activity.pet_friendly">
+          <option disabled value="">Seleccione opción</option>
+          <option value="yes">Si</option>
+          <option value="false">No</option>
+        </select>
 
-        <label>Detalles experiencia:</label>
-        <textarea v-model="activity.experience_details" cols="40" rows="10"></textarea>
+        <label class="label">Detalles experiencia:</label>
+        <textarea class="input" v-model="activity.experience_details" cols="40" rows="10"></textarea>
 
-        <label>¿Que incluye?</label>
-        <select v-model="activity.includes">
+        <label class="label">¿Que incluye?</label>
+        <select class="input" v-model="activity.includes">
+          <option disabled value="">Seleccione una opcion</option>
           <option value="Parking">Parking</option>
           <option value="Seguro RC y accidentes">Seguro RC y accidentes</option>
           <option value="Seguro RC">Seguro RC</option>
@@ -84,23 +102,26 @@
           <option value="Briefing sobre manejo y seguridad">Briefing sobre manejo y seguridad</option>
         </select>
 
-        <label>Ubicación:</label>
-        <input v-model="activity.location" type="text">
+        <label class="label">Ubicación:</label>
+        <input class="input" v-model="activity.location" type="text">
 
-        <label>Prepara tu experiencia:</label>
-        <textarea v-model="activity.prepare_experience" cols="40" rows="10"></textarea>
+        <label class="label">Prepara tu experiencia:</label>
+        <textarea class="input" v-model="activity.prepare_experience" cols="40" rows="10"></textarea>
 
-        <label>Valoraciones:</label>
-        <input v-model="activity.reviews.name" type="text">
-        <input v-model="activity.reviews.date" type="date">
-        <input v-model="activity.reviews.stars" type="text">
-        <textarea v-model="activity.reviews.comment"></textarea>
-        <textarea cols="30" rows="10"></textarea>
+        <label class="label">Valoraciones:</label>
+        <label>Nombre:</label>
+        <input class="input" v-model="activity.reviews.name" type="text">
+        <label>Fecha:</label>
+        <input class="input" v-model="activity.reviews.date" type="date">
+        <label>Estrellas:</label>
+        <input class="input" v-model="activity.reviews.stars" type="number">
+        <label>Comentario:</label>
+        <textarea class="input" v-model="activity.reviews.comment" cols="30" rows="10"></textarea>
 
-        <input type="submit" value="Enviar">
+        <button class="btn-submit" type="submit">Enviar</button>
       </form>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -113,6 +134,7 @@ export default {
       activity: {
         title: '',
         price: '',
+        img: '',
         destination: '',
         type: '',
         sumary: '',
@@ -136,18 +158,45 @@ export default {
     }
   },
 
+
+
   methods: {
     sendForm() {
       this.axios.post('/activity/create-activity', this.activity)
         .then( res => {
           this.activity.push(res.data)
-          this.activity = {}
+          this.activity = '',
+          this.activity.title = '',
+          this.activity.price = '',
+          this.activity.destination = '',
+          this.activity.type = '',
+          this.activity.sumary = '',
+          this.activity.duration = '',
+          this.activity.cancelation = '',
+          this.activity.children = '',
+          this.activity.instant_confirmation = '',
+          this.activity.mobile_ticket = '',
+          this.activity.pet_friendly = '',
+          this.activity.pet_friendly = '',
+          this.activity.experience_details = '',
+          this.activity.includes = '',
+          this.activity.location = '',
+          this.activity.prepare_experience = '',
+          this.activity.reviews.name = '',
+          this.activity.reviews.date = '',
+          this.activity.reviews.stars = '',
+          this.activity.reviews.comment = ''
         })
 
         .catch( e => {
           return e.response
         })
-    }
+    },
+
+    clickImage(e) {
+      this.activity.img = e.target.files[0],
+      console.log(this.activity.img)
+    },
   }
 }
 
@@ -155,6 +204,59 @@ export default {
 
 <style scoped>
 
+  .main__title {
+    padding: 50px;
+    text-align: center;
+  }
 
+  .main__section {
+    width: 80%;
+    margin: auto;
+  }
+
+  .main__section-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__section-form input {
+    width: 75%;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .main__section-form label {
+    width: 75%;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .main__section-form textarea {
+    width: 75%;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .main__section-form select {
+    width: 75%;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .option {
+    align-self: center;
+  }
+
+  .btn-submit {
+    width: 25%;
+    align-self: center;
+    margin: 20px auto 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--tertiary-color);
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+  }
 
 </style>
