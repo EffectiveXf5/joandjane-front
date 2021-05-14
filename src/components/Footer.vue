@@ -20,33 +20,37 @@
                 </article>
                 <article class="footer__section-pay">
                     <h3>PAGA CON</h3>
-                    <div class="pay-icons">
-                        <img src="../assets/footer-icons/logo-bizum.png" alt="logo bizum">
-                        <img src="../assets/footer-icons/logo-mastercard.png" alt="logo mastercard">
+                    <div class="pay-method">
+                        <img src="../assets/footer-icons/logo-bizum.png" alt="logo bizum" class="pay-icon">
+                        <img src="../assets/footer-icons/logo-mastercard.png" alt="logo mastercard" class="pay-icon">
                     </div>
-                    <div class="pay-icons">
-                        <img src="../assets/footer-icons/logo-americanexpress.png" alt="logo american express">
-                        <img src="../assets/footer-icons/logo-visa.png" alt="logo visa">
+                    <div class="pay-method">
+                        <img src="../assets/footer-icons/logo-americanexpress.png" alt="logo american express" class="pay-icon">
+                        <img src="../assets/footer-icons/logo-visa.png" alt="logo visa" class="pay-icon">
                     </div>
-                    <div class="pay-icons">
-                        <img src="../assets/footer-icons/logo-stripe.png" alt="logo stripe">
-                        <img src="../assets/footer-icons/logo-tick.png" alt="logo tick">
+                    <div class="pay-method">
+                        <img src="../assets/footer-icons/logo-stripe.png" alt="logo stripe" class="pay-icon">
+                        <img src="../assets/footer-icons/logo-tick.png" alt="logo tick" class="pay-icon">
                     </div>
-                    <div class="pay-icons">
-                        <img src="../assets/footer-icons/pago-seguro.png" alt="logo pago seguro">
-                        <img src="../assets/footer-icons/pago-encriptacion.png" alt="logo pago encriptado">
+                    <div class="pay-method">
+                        <img src="../assets/footer-icons/pago-seguro.png" alt="logo pago seguro" class="pay-icon">
+                        <img src="../assets/footer-icons/pago-encriptacion.png" alt="logo pago encriptado" class="pay-icon">
                     </div>
                 </article>
+            </section>
+            <section class=footer_section-social>
+                <article class="footer__section-joandjane">
+                    <img src="../assets/images/logo negro.png" alt="logo joandjane" class="logo-footer-jo">
+                </article>
+                <hr>
+                <article class="footer__section-google">
+                    <img src="../assets/footer-icons/logo-google.png" alt="logo google" class="logo-google">
+                </article>
+                <hr>
                 <article class="footer__section-social-media">
                     <img src="../assets/footer-icons/facebook.svg" alt="logo facebook" class="rrss-icon">
                     <img src="../assets/footer-icons/instagram.svg" alt="logo instagram" class="rrss-icon">
                     <img src="../assets/footer-icons/linkedin.svg" alt="logo linkedin" class="rrss-icon">
-                </article>
-                <article class="footer__section-google">
-                    <img src="../assets/footer-icons/logo-google.png" alt="logo google">
-                </article>
-                <article class="footer__section-joandjane">
-                    <img src="../assets/images/logo negro.png" alt="logo joandjane" class="logo-footer-jo">
                 </article>
             </section>
 
@@ -68,16 +72,95 @@ export default {
 footer{
     background-color: var(--primary-color);
     font-family: var(--primary-font-family);
-    /* position: absolute; */
-    /* bottom: 0; */
     width: 100%;
     text-align: justify;
 }
 
 
 @media (min-width: 1000px) {
-        .footer__section-contact-us img{
-        width: 2rem;
+    #footer__title{
+        color: var(--primary-color);
+        background-color: black;
+        text-align: center;
+        font-size: 2.3rem;
+        letter-spacing: 2px;
+        margin-bottom:1rem;
+    }
+
+    .footer__section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3);
+        margin-right: 1rem;
+        margin-left: 1rem;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        column-gap: 2rem;
+        row-gap:1rem;
+        text-align: left;
+    }
+
+    /* ABOUT */
+
+    .footer__section-about-us{
+        grid-column: 1;
+        grid-row: 1/1;
+        padding-left: 5rem;
+    }
+
+    /* CONTACT */
+
+    .footer__section-contact-us{
+        grid-column: 2;
+        grid-row: 1/2;
+        padding-left: 5rem;
+    }
+    .footer__section-contact-us img{
+        display: none;
+    }
+
+    /* PAY */
+
+    .footer__section-pay{
+        grid-column: 3;
+        grid-row: 1/2;
+        padding-left: 5rem;
+    }
+    .pay-method{
+        display: block;
+        align-items: center;
+    }
+
+    /* SOCIAL */
+
+.footer_section-social{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .footer__section-social-media{
+        text-align: center;
+    }
+    .rrss-icon{
+        padding-right: 1rem;
+        width: 2.8rem;
+    }
+    .footer__section-google{
+        text-align: center;
+    }
+    .logo-google{
+        width: 5rem;
+    }
+    .logo-footer-jo{
+       width: 4rem;
+    }
+    hr{
+        width: 20em;
+        height: 5px;
+        background-color: black;
     }
 }
 
@@ -104,50 +187,70 @@ footer{
         column-gap: 2rem;
     }
 
+    /* ABOUT */
+
     .footer__section-about-us{
         grid-column: 1;
         grid-row: 1/1;
+        padding-left: 5rem;
     }
+
+    /* CONTACT */
 
     .footer__section-contact-us{
         grid-column: 2;
         grid-row: 1/2;
+        padding-left: 5rem;
     }
     .footer__section-contact-us img{
         width: 2.3rem;
     }
 
+    /* PAY */
+
     .footer__section-pay{
         grid-column: 3;
         grid-row: 1/2;
+        padding-left: 5rem;
     }
-    .pay-icons{
+    .pay-method{
         display: block;
-    align-items: center;
+        align-items: center;
+    }
+    .pay-icon{
+        width: 4rem;
+    }
+
+    /* SOCIAL */
+
+    .footer_section-social{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 
     .footer__section-social-media{
-        grid-column: 3;
-        grid-row: 2;
         text-align: center;
     }
     .rrss-icon{
         padding-right: 1rem;
+        width: 2.8rem;
     }
-
     .footer__section-google{
-        grid-column: 2;
-        grid-row: 2;
         text-align: center;
     }
-
-    .footer__section-joandjane{
-        grid-column: 1;
-        grid-row: 2;
-        text-align: center;
+    .logo-google{
+        width: 5rem;
     }
     .logo-footer-jo{
-        width: 5rem;
+       width: 4rem;
+    }
+    hr{
+        width: 10em;
+        height: 5px;
+        background-color: black;
     }
 
 }
@@ -173,10 +276,14 @@ footer{
         line-height: 1.8rem;
     }
 
+    /* ABOUT */
+
     .footer__section-about-us{
         grid-column: 1;
         grid-row: 1/1;
     }
+
+    /* CONTACT US */
 
     .footer__section-contact-us{
         grid-column: 2;
@@ -187,31 +294,48 @@ footer{
         width: 2.3rem;
     }
 
+    /* PAY */
+
     .footer__section-pay{
         grid-column: 1;
         grid-row: 1/3;
         margin-top: 10rem;
         align-items: center;
     }
+    .pay-icon{
+        width: 4rem;
+    }
 
+    /* SOCIAL */
+
+    .footer_section-social{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
 
     .footer__section-social-media{
-        grid-column: 2;
-        grid-row: 2/3;
-        margin-top: 15rem;
         text-align: center;
     }
     .rrss-icon{
         padding-right: 1rem;
+        width: 2.8rem;
     }
-
     .footer__section-google{
-        grid-column: 1/3;
-        grid-row: 3;
         text-align: center;
     }
-    .footer__section-joandjane{
-        display:none;
+    .logo-google{
+        width: 5rem;
+    }
+    .logo-footer-jo{
+       width: 4rem;
+    }
+    hr{
+        width: 40px;
+        height: 5px;
+        background-color: black;
     }
 
 }
