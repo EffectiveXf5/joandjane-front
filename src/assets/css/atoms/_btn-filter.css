@@ -1,0 +1,9 @@
+.btn-filter {
+    /* padding: 8px 50px; */
+    border-radius: 5px;
+    border: 0.5px solid var(--tertiary-color);
+    width: 180px;
+    height: 30px;
+    background-color: white;
+    color: var(--tertiary-color);
+}

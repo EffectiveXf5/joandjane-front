@@ -10,9 +10,6 @@
         <label class="label">Precio:</label>
         <input class="input" type="text" v-model="activity.price" placeholder="Precio">
 
-        <label class="label">Fotos:</label>
-        <input class="input" @change="clickImage" type="file" accept="image/*" placeholder="Fotos">
-
         <label class="label">Destino:</label>
         <select class="input" v-model="activity.destination">
           <option disabled value="">Seleccione un destino</option>
@@ -86,12 +83,15 @@
         <textarea class="input" v-model="activity.experience_details" cols="40" rows="10"></textarea>
 
         <label class="label">¿Que incluye?</label>
-        <select class="input" v-model="activity.includes">
+        <select class="input" v-model="activity.includes" multiple>
           <option disabled value="">Seleccione una opcion</option>
           <option value="Parking">Parking</option>
           <option value="Seguro RC y accidentes">Seguro RC y accidentes</option>
           <option value="Seguro RC">Seguro RC</option>
           <option value="Vestuarios">Vestuarios</option>
+          <option value="Guia oficial del Principado de Asturias">Guia oficial del Principado de Asturias</option>
+          <option value="Material Necesario">Material Necesario</option>
+          <option value="Vistas Espectaculares">Vistas Espectaculares</option>
           <option value="Transporte">Transporte</option>
           <option value="Monitor Cualificado">Monitor Cualificado</option>
           <option value="Equipamiento Completo">Equipamiento Completo</option>
@@ -192,11 +192,6 @@ export default {
           return e.response
         })
     },
-
-    clickImage(e) {
-      this.activity.img = e.target.files[0],
-      console.log(this.activity.img)
-    },
   }
 }
 
@@ -257,6 +252,12 @@ export default {
     background-color: var(--tertiary-color);
     color: rgb(224, 224, 224);
     cursor: pointer;
+  }
+
+  @media(max-width: 450px) {
+    .main__title {
+      font-size: smaller;
+    }
   }
 
 </style>

@@ -1,5 +1,8 @@
 .duration-container {
-    width: 8rem;
-    height: 1.5rem;
+    width: 180px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    font-size: smaller;
     background-color: var(--primary-color);
+    text-align: center;
 }
