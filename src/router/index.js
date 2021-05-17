@@ -25,7 +25,7 @@ const routes = [
     component: () => import('../views/Experiences.vue')
   },
   {
-    path: '/experienciaId',
+    path: '/experienciaId/:id',
     name: 'Specific-experience',
     component: () => import('../views/Specific-experience.vue')
   },

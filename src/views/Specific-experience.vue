@@ -1,5 +1,8 @@
 <template>
-  <Test />
+  <main>
+    <h1>Test</h1>
+    <Test />
+  </main>
 </template>
 
 <script>
@@ -9,7 +12,6 @@ export default {
   components: {
     Test
   }
-
 }
 </script>
 

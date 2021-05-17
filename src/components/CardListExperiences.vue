@@ -1,5 +1,5 @@
 <template>
-    <router-link to="/experienciaId">
+    <router-link to="/experienciaId/activity._id">
       <div @click="getOneData(activity._id)">
         <img src="@/assets/images/cares.jpg">
         <div class="btn-price btn-container">{{activity.price}}</div>
@@ -31,18 +31,10 @@ export default {
 
   methods: {
     getOneData(_id) {
-      this.axios.get(`activity/${_id}`)
-        .then( res => {
-          this.activityId = res.data
-          console.log(res.data)
-        })
-        .catch ( e => {
-          console.log(e.response)
-        })
-
+      console.log(_id)
+        this.$router.push(`/experienciaId/${_id}`)
     },
   },
-
 }
 </script>
 
