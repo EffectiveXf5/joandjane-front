@@ -1,16 +1,15 @@
 <template>
   <main>
-    <h1>Test</h1>
-    <Test />
+    <Article />
   </main>
 </template>
 
 <script>
-import Test from '@/components/Test.vue'
+import Article from '@/components/Article.vue'
 
 export default {
   components: {
-    Test
+    Article
   }
 }
 </script>
