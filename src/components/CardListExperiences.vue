@@ -1,5 +1,5 @@
 <template>
-    <article class="main__section-article">
+    <div>
         <img src="@/assets/images/cares.jpg">
         <div class="btn-price btn-container">{{activity.price}}</div>
         <h4>{{activity.title}}</h4>
@@ -12,7 +12,7 @@
             <i class="fas fa-star"></i>
         </p>
         <div class="duration-container">Duración: {{activity.duration}}</div>
-    </article>
+    </div>
 </template>
 
 <script>
