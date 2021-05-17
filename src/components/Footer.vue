@@ -36,8 +36,8 @@ export default {
 
 footer{
     background-color: var(--primary-color);
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
     width: 100%;
     text-align: center;
 }
