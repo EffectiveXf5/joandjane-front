@@ -48,6 +48,9 @@
         <label class="label">Duración:</label>
         <input class="input" v-model="activity.duration" type="text">
 
+        <label class="label">Imagen</label>
+        <input class="input" type="text" v-model="activity.img">
+
         <label class="label">Cancelación:</label>
         <input class="input" v-model="activity.cancelation" type="text">
 
@@ -192,6 +195,11 @@ export default {
           return e.response
         })
     },
+
+    /* clickImg(e) {
+      this.activity.img = e.target.file
+      console.log(this.activity.img)
+    }, */
   }
 }
 
