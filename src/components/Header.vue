@@ -49,6 +49,7 @@ export default {
    color:white;
    font-weight: bold;
 }
+
 #virtual {
     background-color: black;
     color: var(--primary-color);
@@ -61,5 +62,19 @@ export default {
     background-color: var(--primary-color);
     color: black;
     box-shadow: inset 0 0 0 2.5px black;
+}
+
+@media (min-width: 1000px) {
+    footer{
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 999px) and (min-width: 425px) {
+
+}
+
+@media (max-width: 424px) {
+
 }
 </style>
