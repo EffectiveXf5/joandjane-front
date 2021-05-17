@@ -1,16 +1,18 @@
 <template>
-  <div>
-    <h1 class="activitie-title">Specific Experience</h1>
-  </div>
+  <Test />
 </template>
 
 <script>
+import Test from '@/components/Test.vue'
 
 export default {
-  name: 'Specific-experience',
+  components: {
+    Test
+  }
+
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
