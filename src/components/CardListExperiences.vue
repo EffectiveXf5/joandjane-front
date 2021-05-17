@@ -1,25 +1,40 @@
 <template>
-    <div>
+    <router-link to="/experienciaId/activity._id">
+      <div @click="getOneData(activity._id)">
         <img src="@/assets/images/cares.jpg">
         <div class="btn-price btn-container">{{activity.price}}</div>
         <h4>{{activity.title}}</h4>
         <p>{{activity.sumary}}</p>
         <p class="reviews-icons">{{activity.reviews.stars}}
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
         </p>
         <div class="duration-container">Duración: {{activity.duration}}</div>
-    </div>
+      </div>
+    </router-link>
 </template>
 
 <script>
 export default {
   name: 'CardListExperience',
   
-  props: ['activity']
+  props: ['activity'],
+
+  data() {
+    return {
+      activityId: []
+    }
+  },
+
+  methods: {
+    getOneData(_id) {
+      console.log(_id)
+        this.$router.push(`/experienciaId/${_id}`)
+    },
+  },
 }
 </script>
 

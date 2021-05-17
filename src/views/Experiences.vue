@@ -21,6 +21,7 @@ export default {
     CardExperience,
   },
 }
+
 </script>
 
 <style scoped>
