@@ -83,7 +83,7 @@
         <textarea class="input" v-model="activity.experience_details" cols="40" rows="10"></textarea>
 
         <label class="label">¿Que incluye?</label>
-        <select class="input" v-model="activity.includes" multiple>
+        <select class="input" v-model="activity.includes">
           <option disabled value="">Seleccione una opcion</option>
           <option value="Parking">Parking</option>
           <option value="Seguro RC y accidentes">Seguro RC y accidentes</option>

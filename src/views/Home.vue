@@ -1,7 +1,6 @@
 <template>
   <div>
      <Home-intro/>
-     <Card-experience/>
      <Home-destinations/>
      <Home-cancelation-policy/>
      <Home-about/>
@@ -11,7 +10,6 @@
 </template>
 
 <script>
-import CardExperience from '../components/Card-experience'
 import HomeIntro from '../organisms/Home-intro'
 import HomeDestinations from '../organisms/Home-destinations'
 import HomeCancelationPolicy from '../organisms/Home-cancelation-policy'
