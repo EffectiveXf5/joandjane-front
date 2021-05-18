@@ -1,12 +1,22 @@
 <template>
     <div>
         <nav class="header">
+            <router-link to="/" class="links">
            <h1 id="titulo-header">JO&JANE</h1>
+           </router-link>
            <ul class="menu-nav">
-             <li>DESTINOS</li>
+             <router-link to="/destinos" class="links">
+             <li> DESTINOS</li>
+             </router-link> 
+             <router-link to="/experiencias" class="links">
              <li>EXPERIENCIAS</li>
-             <li>QUIÉNES SOMOS</li>
+             </router-link>
+             <router-link to="/" class="links">
+             <li>QUIÉNES <br> SOMOS</li>
+             </router-link>
+             <router-link to="/blog" class="links">
              <li>BLOG</li>
+             </router-link>
              <li id="virtual">VIRTUAL</li>
            </ul>
         </nav>
@@ -27,6 +37,8 @@ export default {
     align-items: center;
     width:100%;
     height: 50%;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
 }
 #titulo-header {
     margin-left: 5%;
@@ -49,6 +61,9 @@ export default {
    color:white;
    font-weight: bold;
 }
+.links{
+    color: black;
+}
 
 #virtual {
     background-color: black;
@@ -56,7 +71,6 @@ export default {
     justify-content: center;
     border-radius: 15px;
     padding: 1% 0 1% 0;
-
 }
 #virtual:hover {
     background-color: var(--primary-color);
