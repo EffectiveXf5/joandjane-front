@@ -31,11 +31,28 @@
                
                 <h3 class="section__article-title">Prepara tu experiencia</h3>
                 <p class="section__article-prepare-experience">{{activity.prepare_experience}}</p>
+                
+                <div>
+                    <h3>Opiniones de los Usuarios</h3>
+                    <div>
+                        <h4><i class="fas fa-thumbs-up"></i>Reviews verificadas</h4>
+                        <p>Nuestras reviews solo provienen de usuarios que hayan hecho ésta actividad</p>
+                    </div>
 
-                <h3>Opiniones de los Usuarios</h3>
-                <p>{{activity.reviews.date}}</p>
-                <p>{{activity.reviews.name}}</p>
-                <p>{{activity.reviews.comment}}</p>
+                    <div>
+                        <h6>5 Estrellas <hr> 100%</h6>
+                        <h6>4 Estrellas 0%</h6>
+                        <h6>3 Estrellas 0%</h6>
+                        <h6>2 Estrellas 0%</h6>
+                        <h6>1 Estrellas 0%</h6>
+                    </div>
+
+                    <div class="section__article-reviews">
+                        <div v-for="(rev, index) in activity.reviews" :key="index">
+                            <h5>{{rev}}</h5>
+                        </div>
+                    </div>
+                </div>
             </article>
         </section>
 
