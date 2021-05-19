@@ -32,24 +32,27 @@
                 <h3 class="section__article-title">Prepara tu experiencia</h3>
                 <p class="section__article-prepare-experience">{{activity.prepare_experience}}</p>
                 
-                <div>
-                    <h3>Opiniones de los Usuarios</h3>
-                    <div>
-                        <h4><i class="fas fa-thumbs-up"></i>Reviews verificadas</h4>
+                <div class="section__article-reviews-container">
+                    <h3 class="section__article-title">Opiniones de los Usuarios</h3>
+                    <div class="section__article-reviews-header">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h4>Reviews verificadas</h4>
                         <p>Nuestras reviews solo provienen de usuarios que hayan hecho ésta actividad</p>
                     </div>
 
-                    <div>
-                        <h6>5 Estrellas <hr> 100%</h6>
-                        <h6>4 Estrellas 0%</h6>
-                        <h6>3 Estrellas 0%</h6>
-                        <h6>2 Estrellas 0%</h6>
-                        <h6>1 Estrellas 0%</h6>
-                    </div>
+                    <div class="section__article-reviews-star">
+                        <div>
+                            <h6>5 Estrellas 0%</h6>
+                            <h6>4 Estrellas 0%</h6>
+                            <h6>3 Estrellas 0%</h6>
+                            <h6>2 Estrellas 0%</h6>
+                            <h6>1 Estrellas 0%</h6>
+                        </div>
 
-                    <div class="section__article-reviews">
-                        <div v-for="(rev, index) in activity.reviews" :key="index">
-                            <h5>{{rev}}</h5>
+                        <div class="section__article-reviews">
+                            <div v-for="(rev, index) in activity.reviews" :key="index">
+                                <h5>{{rev}}</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -156,6 +159,44 @@ export default {
 
     .section__article-prepare-experience {
         color: var(--tertiary-color);
+        margin: 20px 0;
+    }
+
+    .section__article-reviews-header {
+        margin: 20px auto;
+        background-color: var(--primary-color);
+        padding: 6px;
+        display: grid;
+        grid-template-areas: 'i h'
+                             'i p';
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 1;
+    }
+
+    .section__article-reviews-header h1 {
+        grid-area: h;
+    }
+
+    .section__article-reviews-header i {
+        grid-area: i;
+        font-size: 3rem;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .section__article-reviews-header p {
+        grid-area: p;
+        font-size: smaller;
+    }
+
+    .section__article-reviews-star {
+        display: grid;
+        grid-template-areas: 's r';
+        grid-template-columns: repeat( 2, 1fr);
+    }
+
+    .section__article-reviews-star div h6 {
+        padding: 6px;
     }
 
 </style>
