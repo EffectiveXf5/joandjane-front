@@ -1,0 +1,702 @@
+[
+    {
+        "destination": ["Cangas de Onís"],
+        "title": "Descenso del Sella desde Cangas de Onís",
+        "price": "25€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/descenso-sella-cangas-onis.jpg",
+        "sumary": "Atrévete con nuestra actividad estrella y siéntete como un auténtico piragüista en el río más famoso de Asturias. No es necesaria experiencia previa.",
+        "duration": "1 a 4 horas",
+        "cancelation": "48 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": true,
+        "experience_details": "En esta divertida experiencia (que no te puedes perder) podrás recorrer el río más transitado y divertido de Asturias. Tenemos recorridos adaptados a todos los niveles y están divididos en diferentes tramos de 4 km, 8 km, 12 km y 16 km variando entre 1 y 4 horas aproximadamente. Los primeros 4 km son sin aglomeraciones al ser los únicos que realizamos ese tramo. Podéis bajar el río solos o acompañados de vuestra pareja, familia, amigos o mascota. Tú mascota baja el río de manera gratuita. No es necesario tener experiencia previa. Siéntete como un autentico aventurero bajando en canoa por los increíbless parajes que te ofrece el río Sella. A lo largo del recorrido podréis encontrar chiringuitos en los que beber y comer algo. Además de las paradas obligatorias para darse un baño y disfrutar del entorno.",
+        "includes": ["Material completo", "Servicio de guardallaves", "Transporte de vuelta a las instalaciones", "Vestuarios y duchas", "Parking gratuito", "Seguro RC y accidentes"],
+        "location": ["https://www.google.com/maps/place/33547+Triongo,+Asturias/@43.396722,-5.145143,16z/data=!4m5!3m4!1s0xd3618cd7ad359a5:0xc01e2d044d153daf!8m2!3d43.3972722!4d-5.1449987?hl=es"],
+        "prepare_experience": "La recepción al público empieza a las 10 de la mañana pero las salidas son entre las 11 y las 13 hrs. Hora para finalizar el descenso: 18 hrs. El material incluido es: chaleco salvavidas, bidón por canoa para guardar pertenencias, remos y canoas (de 1, 2 ó 3 plazas). NO incluye picnic. Qué llevar: Ropa de recambio. Crema solar, gorra y calzado adecuado para el río. Toalla y demás efectos para la ducha. IMPRESCINDIBLE saber nadar. Edad mínima 5 años y 1,15 m altura ",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+               "date": "21/09/2020",
+               "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Somiedo"],
+        "title": "Avistamiento del Oso Pardo Cantábrico en el Parque Natural de Somiedo",
+        "price": "40€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/avistamiento-oso.jpg",
+        "sumary": "Aventúrate en busca del Oso Pardo Cantábrico al que podrás observar en su hábitat natural. Es una experiencia TOP en Asturias y no tiene ningún peligro, ¿te animas?.",
+        "duration": "6 horas",
+        "cancelation": "48 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "La población de oso pardo cantábrico en Asturias se ha triplicado en las últimas décadas. Osas adultas con oseznos y grandes machos son avistados cada año en las montañas cantábricas. Esta actividad se desarrolla íntegramente en el Parque Natural de Somiedo. En función de las condiciones meteorológicas y el comportamiento de los animales nos acercaremos a diferentes miradores para identificar el hábitat del oso pardo, y tratar de localizar algún individuo. Tras acomodarnos en el puesto de espera buscamos activamente los animales con el telescopio mientras nuestro guía nos cuenta la historia natural de estos valles. La búsqueda se prolonga hasta la puesta del sol, cuando termina la actividad, pero para entonces, quizás ya ¡hemos visto osos!",
+        "includes": ["Guía oficial del Principado de Asturias", "Vestas espectaculares", "Avistamiento oso pardo", "Material necesario"],
+        "location": ["https://www.google.com/maps?ll=43.101503,-6.248657&z=16&t=m&hl=es&gl=ES&mapclient=embed&cid=13301284063098533705"],
+        "prepare_experience": "Te recomendamos llevar: Calzado cómodo, Sombrero o gorra, Crema protectora, Chubasquero, Comida. Estar en el punto de encuentro 15 minutos antes. Edad mínima 9 años. Cupo mínimo 2 personas. Se puede cancelar por causas meteorológicas, en tal caso se acordará con el cliente la devolución del importe de la actividad o el cambio de fecha. Adulto: 4O € | Niño: 20 € ",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Cabrales"],
+        "title": "El Queso Cabrales y los Picos de Europa",
+        "price": "75€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/queso-cabrales-picos-europa.jpg",
+        "sumary": "Descubre en una quesería el origen del queso más famoso del norte en una espectacular excursión por el Parque Natural de Picos de Europa. ¡Auténtica e irrepetible!",
+        "duration": "8-9 horas",
+        "cancelation": "48 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "En esta espectacular excursión por el corazón de Asturias recorrerás: Picos de Europa.Por la mañana se hace parada para tomar un café en Cangas de Onís, y se inicia ruta hacia el desfiladero de las Estazadas en el que verás las imponentes montañas calcáreas de los Picos de Europa. Unos minutos después, dentro del concejo de Cabrales podrás admirar (si las condiciones atmosféricas lo permiten) la belleza del paisaje alpino de los Picos de Europa con su icono, el Picu Urriellu (Naranjo de Bulnes) al frente, desde el Pozo de la Oración. ¡Es una pasada! Visita a quesería y cueva.Después de dejar atrás Arenas de Cabrales, vamos en busca del río Cares y punto de encuentro de los tres macizos de Picos de Europa. Dejamos a un lado Tielve y nos adentramos en Sotres, también conocido como uno de los pueblos más altos de Asturias y uno de los puntos de partida de las rutas de treking más famosas de la región. Aquí visitamos una quesería tradicional y una cueva de maduración natural de la mano de nuestros anfitriones queseros, que te contarán los detalles del proceso de elaboración y atenderán a tus preguntas. Por último, degustaremos el afamado queso en sus diferentes variantes de maduración acompañado de un culete de sidra, ¡porque también se viaja con el paladar!. En definitiva, una excursión que no te puedes perder.",
+        "includes": ["Guía oficial del Principado de Asturias", "Visita a Picos de Europa", "Entrada a quesería y degustacion queso", "Transportes"],
+        "location": ["https://www.google.com/maps/place/Parque+Nacional+de+Los+Picos+de+Europa/@43.186968,-4.871243,13z/data=!4m5!3m4!1s0x0:0xc6f2ab7c01f75b57!8m2!3d43.1869684!4d-4.8712433?hl=es"],
+        "prepare_experience": "Te recomendamos llevar: Calzado cómodo, Sombrero o gorra, Crema protectora, Chubasquero, Comida. Estar en el punto de encuentro 15 minutos antes. Edad mínima 9 años. Cupo mínimo 2 personas. Se puede cancelar por causas meteorológicas, en tal caso se acordará con el cliente la devolución del importe de la actividad o el cambio de fecha. Adulto: 75 € | Niño: 35 € ",
+        "reviews":             
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Somiedo"],
+        "title": "Senderismo en Somiedo + Avistamiento del Oso Pardo",
+        "price": "55€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/senderismo-somiedo-avistamiento-oso.jpg",
+        "sumary": "Prepárate para esta apasionante travesía repleta de flora y fauna en uno de los mejores paisajes de Asturias.",
+        "duration": "8-9 horas",
+        "cancelation": "48 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "En esta aventura por el Parque Natural de Somiedo puedes elegir entre la ruta de senderismo por los Lagos de Saliencia o el Lago del Valle: LUNES: RUTA A LOS LAGOS DE SALIENCIA + AVISTAMIENTO DEL OSO PARDO La ruta senderista de los Lagos de Saliencia nos lleva a conocer tres lagos diferentes en el corazón de las montañas cantábricas y por encima de los 1700 metros de altura. Conocerás todos los detalles sobre el origen de los lagos, su flora, fauna, las Cabañas de Teito, sus miradores y verás los animales típicos de la zona como las vacas de raza autóctona y la mayor diversidad de mariposas de Asturias. MARTES: RUTA A LAGO DEL VALLE + AVISTAMIENTO DEL OSO PARDO La ruta al Lago del Valle discurre por el valle más conocido de Somiedo. Los primeros kilómetros del recorrido nos adentran en un paisaje con gran carga cultural. Al llegar al final de esta vega iniciamos la leve pero constante subida, que nos permitirá remontar las antiguas morrenas glaciares, sentir el bosque más presente y adentrarnos en ``reino del oso pardo” (¡y aún no hemos llegado a la mitad del recorrido!). Con un poco más de esfuerzo alcanzaremos el Lago del Valle, el más grande de Asturias, ubicado en un marco de gran belleza donde las montañas son protagonistas. AVISTAMIENTO DEL OSO PARDO La población de oso pardo cantábrico en Asturias se ha triplicado en las últimas décadas. Osas adultas con oseznos y grandes machos son avistados cada año en las montañas cantábricas. Esta actividad se desarrolla íntegramente en el Parque Natural de Somiedo. En función de las condiciones meteorológicas y el comportamiento de los animales nos acercaremos a diferentes miradores para identificar el hábitat del oso pardo, y tratar de localizar algún individuo. Tras acomodarnos en el puesto de espera buscamos activamente los animales con el telescopio mientras nuestro guía nos cuenta la historia natural de estos valles. La búsqueda se prolonga hasta la puesta del sol, cuando termina la actividad, pero para entonces, quizás ya ¡hemos visto osos!",
+        "includes": ["Guía oficial del Principado de Asturias", "Material necesario", "Vistas espectaculares", "Seguro RC y accidentes"],
+        "location": ["https://www.google.com/maps/place/Parque+Natural+de+Somiedo/@43.101503,-6.248657,16z/data=!4m5!3m4!1s0x0:0xb897a761d58d7749!8m2!3d43.101503!4d-6.2486568?hl=es"],
+        "prepare_experience": "Te recomendamos llevar: Calzado cómodo, Sombrero o gorra, Crema protectora, Chubasquero, Muda, Comida. No incluye: transporte (el precio de la excursión, incluido transporte desde Oviedo, Gijón o Avilés es de 60 €)​. Edad mínima 9 años. Cupo mínimo 2 personas. Estar en el punto de encuentro 15 minutos antes. Edad mínima 9 años. Cupo mínimo 2 personas. Se puede cancelar por causas meteorológicas, en tal caso se acordará con el cliente la devolución del importe de la actividad o el cambio de fecha. Adulto: 55 € | Niño: 30 € ",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Bautismo, Curso y Alquiler de Surf, SUP y Skate en Gijón",
+        "price": "12€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/bautismo-surf.jpg",
+        "sumary": "Disfruta de una experiencia de Surf y SUP en la playa más surfera de Gijón. Puedes elegir entre bautismos y cursos de Surf, o alquiler de tabla de Surf, SUP y Skate. Somos escuela de Surf desde 1985.",
+        "duration": "2 a 10 horas",
+        "cancelation": "24 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "BAUTISMO DE SURF​ El bautismo es una clase de iniciación de Surf de 2 horas de duración dividida en dos partes. La primera parte se realiza en la arena y son 15 minutos de clase teórica donde os explicamos las normas básicas de seguridad y los conceptos básicos del surf para poder practicar la deseada puesta en pie en el agua. La segunda parte se practica en el agua y es la que más disfrutarás. 1,45 horas de pura diversión intentando ponerte de pie en la tabla con la ayuda del monitor. Se imparte los sábados y/o domingos. CURSO DE SURF En este curso de Surf en la playa de San Lorenzo disfrutarás del mar de una forma segura y divertida, nuestros monitores te enseñarán sobre técnicas y medidas de seguridad. Pon a prueba tus destrezas y pásalo en grande. Se imparte de lunes a viernes. Tiene una duración de 2 horas al día, 10 horas en total. Puede ser en horario de mañana o de tarde ALQUILER MATERIAL Ponemos a tú disposición nuestro material e instalaciones para que puedas disfrutar de estas actividades a tu aire. ​SURF Si ya sabes Surfear no dudes en coger las mejores olas de Gijón. SUP Haz Paddle Surf disfrutando de la fachada marítima de San Lorenzo. SKATE Nuestro personal te asesorará sobre los mejores spots para andar en la tabla de Skate. Conoce el Skatepark de Cimavilla, Pericones o el de Jove y pasa un día diferente con amigos.",
+        "includes": ["Material completo", "Vestuario, ducha y lockers", "Monitor cualificado", "Seguro RC y accidentes"],
+        "location": ["https://www.google.com/maps?ll=43.541519,-5.659411&z=16&t=m&hl=es&gl=ES&mapclient=embed&q=Plaza+Romualdo+Alvargonz%C3%A1lez+Lanquine+33202+Gij%C3%B3n+Asturias"],
+        "prepare_experience": "Bañador/bikini, chanclas y toalla. Bolsa o neceser para guardar mascarilla. Edad mínima 7 años. Imprescindible saber defenderse en el agua. Debido a las condiciones meteorológicas y mareas, el horario se divide en turno de mañana o turno de tarde. El alquiler de material será bajo petición previa: Se solicita depósito con tarjeta de 150 € para el alquiler de tabla de Surf y SUP y para Skate 90€. Llamar para confirmar la hora un día antes. Las programaciones de horario de las actividades serán susceptibles de cambios en función de las condiciones climatológicas, en tales casos se consensuará con el usuario la reprogramación de la actividad",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                 "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Catamarán en Gijón",
+        "price": "210€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/catamaran.jpg",
+        "sumary": "Disfruta de un plan original y lujoso con amigos, familia, en pareja o con tus compañeros de trabajo a bordo del único Catamarán que encontrarás en la zona norte de España.",
+        "duration": "Por horas o días",
+        "cancelation": "15 días antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "Pasa un día único por donde tú quieras abordo del Gran Bahía, un Catamarán que cuenta con - 6 camarotes - 4 baños independientes - 2 cubiertas - Por lo general navegamos hasta pequeños y típicos puertos pesqueros Asturianos (Luanco, Candás, Tazones) donde en una travesía de ida y vuelta de en total de 4 horas, podremos atracar para tomar un culín de sidra, una tapa de parrochas y bocartes y pegarnos un baño. - También podemos navegar por la bahía de Gijón y darnos un chapuzón en lugares privilegiados. Otros ejemplos de experiencias - ver los fuegos artificiales el día de Begoña - el festival aéreo - cena romántica a bordo - dar el Sí Quiero. La capacidad del Catamarán es de 12 personas. No alquilamos el barco por plazas sueltas, alquilamos el barco completo. Puedes alquilar el barco desde una hora, un fin de semana o una semana completa, lo personalizamos para ti. Algunos de los viajes que hemos hecho - una semana en La Rochelle (Francia) - una semana recorriendo los casinos del norte de España. Party Boats. Apto para todos los públicos. No encontrarás un barco de estas características en toda la cornisa Cantábrica",
+        "includes": ["Exclusivo catamarán", "Patrón profesional a bordo", "Totalmente equipado", "Seguro RC"],
+        "location": ["https://www.google.com/maps?ll=43.545284,-5.66772&z=14&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+Deportivo+33206+Gij%C3%B3n+Asturias"],
+        "prepare_experience": "El barco cuenta con gafas y aletas para que puedas hacer snorkel. A bordo puedes traer tu música y la comida y bebida que quieras. Toma precauciones si eres propenso al mareo",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Banana Boat en Gijón",
+        "price": "18€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/banana.jpg",
+        "sumary": "No te pierdas una de las actividades más divertidas de Gijón, en la que cabalgarás a lomos de una banana a toda velocidad con tus amigos o familia. ¡Intenta no caer!",
+        "duration": "15 minutos",
+        "cancelation": "15 días antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "Una banana boat o banana acuática es un barco hinchable de recreo hecho para ser remolcado por un barco o moto de agua. - Nuestra banana acuática tiene estilo, color y sobre todo alma propia: quien prueba vuelve a repetir. - Durante el paseo, el piloto que arrastra la banana acuática intentará girarla con curvas cerradas, por lo que las personas que viajan en la banana deben intentar no caer. -  El equilibrio y la comunicación son imprescindibles para mantenerse a flote. - Esta actividad está diseñada para los más atrevidos, podemos sacarte con paseos turísticos y de ocio un día de playa o para soltar más adrenalina en la playa. - Con capacidad para un máximo de 6 pasajeros sentados en un tubo grande mientras descansan sus pies en dos tubos laterales que estabilizan la banana acuática.",
+        "includes": ["Banana boat", "Material de seguridad", "Vestuarios", "Seguro civil y accidentes"],
+        "location": ["https://www.google.com/maps/place/Playa+de+Poniente/@43.543477,-5.673307,16z/data=!4m5!3m4!1s0xd367c5ac04675d9:0xdb82caefa3a4d67f!8m2!3d43.5423363!4d-5.6724194?hl=en"],
+        "prepare_experience": "- Duración: 15 minutos. Para mayor duración consultar. - Obligatorio saber nadar. - Capacidad para 6 personas. Mínimo grupos de 4 personas. - Necesario tener más de 16 años o autorización de los padres. - Precio: 18 € por persona. - Para practicar esta actividad acuática de entretenimiento se requiere de algunos accesorios importantes de seguridad que proporcionamos, como chalecos salvavidas y cascos y, sobre todo, hacer caso en todo momento de las recomendaciones del instructor. - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp.",
+        "reviews": 
+            {
+            "stars": "5",
+            "name": "Elisa Villaverde",
+            "date": "21/09/2020",
+            "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Paintball en Gijón",
+        "price": "20€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/paintball.jpg",
+        "sumary": "Descarga adrenalina con tus amigos en esta divertida batalla en la que no tendrás tiempo de aburrirte. Somos el único campo existente de Paintball en Gijón con 3 escenarios diferentes, puentes y ríos.",
+        "duration": "Sin tiempo",
+        "cancelation": "15 días antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "El paintball es la actividad en grupo en la que más adrenalina vas a descargar. Pásalo en grande en nuestro campo situado en un paraje único. La actividad puede ser tanto para adultos como para niños, aunque la de niños se llama splatmaster (modalidad con marcadoras especiales que no hacen daño). Tenemos múltiples juegos que organizan nuestros monitores en los que no tendrás tiempo de aburrirte: - Capturar la bandera - Centerflag o bandera central - Eliminación - X-Ball. ​No hace falta que elijas un tipo de juego ya que posiblemente os de tiempo a probarlos todos.  Si también lo deseas te podemos organizar, previo aviso, una experiencia de rol donde tú y cada uno de tus compañeros tengáis que cumplir una misión o formar parte de una historia preestablecida: - Salvar a unos rehenes - Entrada y asalto a una fortaleza - Defenderse de una invasión zombie - ​Esto todo en uno de los parajes más bonitos de Asturias como es un paisaje protegido a pie de la ciudad de Gijón.",
+        "includes": ["Material necesario", "100 bolas", "Vestuarios y duchas", "Seguro civil y accidentes"],
+        "location": ["https://www.google.com/maps?ll=43.499235,-5.702154&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Pol%C3%ADgono+Porceyo+Urb.+Sec13+33392+Asturias"],
+        "prepare_experience": "Incluye marcadora Tippman + accesorios. - Recarga de 100 bolas paintball. - Se proporciona: buzo camuflado de último diseño, máscara, protector de cuello y guantes. - Sin tiempo de duración. Siempre que tengáis bolas, se juega. - Llevar ropa y calzado de repuesto y cómodo (es posible que te ensucies). - Hacer caso al monitor. - Ajustarse bien la máscara y las protecciones. - Respetar una distancia entre jugadores antes de disparar (8 metros aproximadamente). - Apuntar con la marcadora al suelo cuando no se esté jugando. - El mínimo de participantes es de 6 personas. - Edad mínima 8 años. - Adultos a partir de 12 años. - 7 días antes se debe concretar el número exacto de personas. - Hay vestuarios, duchas y merendero en las instalaciones. - Adulto: 25 € | Niño: 20 € - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Humor Amarillo en Gijón",
+        "price": "20€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/humor-amarillo.jpg",
+        "sumary": "Disfruta de una experiencia fuera de lo común en una simulación del programa Humor Amarillo en una pista de obstáculos. ¿Estás preparado? risas aseguradas.",
+        "duration": "2 horas",
+        "cancelation": "15 días antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "-La gymkhana ''Humor Amarillo'' en Gijón se trata de un divertido circuito con pruebas competitivas en la que dos equipos competirán en cada prueba para lograr puntos y así decidir el ganador. - No es necesario saber nada en especial antes de venir a participar: un monitor recibe el grupo, explica cómo funciona cada prueba y los equipa para realizar toda la gymkhana. - Se desarrollan actividades como lucha de gladiadores, bolos humanos, lucha de sumos, pista americana, pared de puños y puente chino o puente de cuerdas. - Hay hinchables e incluso pruebas acuáticas. - En definitiva, una actividad dónde poner a prueba vuestra agilidad, competitividad, compañerismo, equilibrio y fuerza.",
+        "includes": ["Material necesario", "Monitor especializado", "Vestuarios y duchas", "Seguro civil y accidentes"],
+        "location": ["https://www.google.com/maps/place/Pol%C3%ADgono+Porceyo+Urb.+Sec13,+33392,+Asturias/@43.499235,-5.702154,16z/data=!4m5!3m4!1s0xd367d317ed78a05:0x660d9e5aa19318f8!8m2!3d43.499235!4d-5.7021536?hl=en"],
+        "prepare_experience": "-Ropa y calzado cómodo, deportivo y que no importe que se ensucie. - No se puede llevar ningún elemento punzante que pueda dañar los hinchables de algunas de las pruebas. - Se recomienda traerse ropa de cambio y toalla porque hay pruebas de agua. (Sino se quieren realizar las pruebas de agua consultarnos y se busca alternativa). - El mínimo de participantes es de 5 personas. - Para grupos de menos de 8 personas se puede juntar con otros grupos. - Edad mínima 12 años. - 5 días antes se debe concretar el número exacto de personas. - Se entrega mono y casco para los participantes que lo soliciten. - Hay vestuarios, duchas y merendero en las instalaciones. - Adulto: 30 € | Niño: 20 € - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp ",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Fútbol Burbuja en Gijón",
+        "price": "15€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/futbol-burbuja.jpg",
+        "sumary": "Por fin llega a Gijón el Fútbol Bubble, el deporte de aventura más nuevo, divertido y alocado indicado especialmente pasárselo en grande impactando, chocando, o incluso volando sobre tus oponentes de una forma completamente segura.",
+        "duration": "1 hora",
+        "cancelation": "15 días antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "- El fútbol burbuja en Gijón se trata de una experiencia muy segura y exageradamente divertida para realizar en grupo, donde la única regla es ¡que no hay reglas! - Al fútbol burbuja se juega formando dos equipos que se enfrentan en un campo de fútbol envueltos en unas bolas individuales gigantes dejando las piernas libres para poder golpear la pelota con el único objetivo de marcar GOL. - Las carcajadas irán en aumento con cada choque entre vosotros. A mayor número de choques mayor será la diversión y la descarga de adrenalina. - Pueden jugar 12 jugadores a la vez, aunque recomendamos hacer cambios durante el partido ya que la actividad tiene una duración de 1 hora. - En función de las preferencias del grupo, se pueden jugar a distintos juegos:​ - FÚTBOL BUBBLE: Jugar un alocado partido de fútbol donde todo vale, envueltos en enormes burbujas de aire. - RUGBY: Un jugador corre con la pelota y los compañeros deben abrirle paso. Juego de pura estrategia y agilidad. - BOLOS HUMANOS: Un equipo será la bola y el otro los bolos a derribar (por turnos), para conseguir tirar más que el rival. - JUEGO DEL PAÑUELO: Prueba mítica en la que el jugador debe alcanzar el balón (en el centro del campo) antes que lo haga su adversario. - CARRERA DE VOLTERETAS: Prueba individual en la que los jugadores deben llegar a meta haciendo volteretas sin ayudas de ningún tipo. El primero en llegar ganará. - RODANDO AL AFORTUNADO: Jugar un partido utilizando al novio de pelota, ¿qué equipo marcará gol? - TODOS CONTRA TODOS: Conseguir el balón antes de que lo logre ningún otro componente del grupo.",
+        "includes": ["Pelota en la que se va montado", "Monitor especializado", "Balón fútbol", "Vestuario y duchas"],
+        "location": ["https://www.google.com/maps/place/Pol%C3%ADgono+Porceyo+Urb.+Sec13,+33392,+Asturias/@43.499235,-5.702154,16z/data=!4m5!3m4!1s0xd367d317ed78a05:0x660d9e5aa19318f8!8m2!3d43.499235!4d-5.7021536?hl=en"],
+        "prepare_experience": "- Llevar calzado deportivo para césped artificial. - Llevar ropa de repuesto y ropa cómoda(es posible que te ensucies) - Concretar número de participantes con 7 días de antelación. - En ocasiones se debe realizar un depósito para garantizar la reserva. El resto se pagaría al finalizar la actividad. - El mínimo de participantes es de 6 personas. - Hay vestuarios, duchas y merendero en las instalaciones. - Niño a partir de 8 años. - Adulto a partir de 12 años. - Adulto: 20 € | Niño: 15 € - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp ",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Rutas en Buggy en Gijón",
+        "price": "60€",
+        "type": ["Rutas 4x4 y motor"],
+        "image": "/images/buggy-gijon.jpg",
+        "sumary": "Disfruta en pareja, amigos o en familia de una ruta guiada en buggy hasta el punto más alto de Gijón: el mirador del Pico del Sol, desde dónde podrás ver Gijón, Oviedo e incluso los Picos de Europa. No te lo puedes perder.",
+        "duration": "1 hora",
+        "cancelation": "15 días antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "Descubre la ciudad de Gijón, Oviedo y Picos de Europa desde el mirador del Pico del Sol a 439 metros, subido en uno de nuestros Buggies Cann-am Maverick 800 automáticos. - Nuestros expertos guías te enseñarán todo lo necesario en cuanto a la seguridad y el manejo del buggy, y te acompañarán durante todo el recorrido. - Recorre paisajes asombrosos y espectaculares disfrutando de la experiencia de conducir un Buggy en Gijón con la máxima seguridad, combinando terrenos de tierra y asfalto. - En definitiva, escapa de la rutina y disfruta de una sensación de motor rodeados de plena naturaleza. - La ruta en Buggy al Mirador del Pico del Sol desde la Senda Verde de la Camocha, tendrá una duración de 1 hora. ",
+        "includes": ["Briefing sobre manejo y seguridad", "Vestuario y duchas", "Buggy de alta calidad", "Seguro civil y accidentes"],
+        "location": ["https://www.google.com/maps?ll=43.499235,-5.702154&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Pol%C3%ADgono+Porceyo+Urb.+Sec13+33392+Asturiasn"],
+        "prepare_experience": "- Se trata de una ruta turística guiada con monitor, el cual explicará todo lo necesario en términos de seguridad antes de comenzar la ruta. - En esta actividad recomendamos traer ropa que no importe que se ensucie y que sea cómoda. Disponemos de vestuarios y duchas para cambiarse de ropa. - Conviene traer cazadora de abrigo y gafas de sol si fuera necesario según climatología. - Reservar para aseguraros un hueco en la fecha y hora que queráis, además, os ahorraréis esperas. - Garantía de vehículos de alta calidad, constante revisión y mantenimiento por profesionales. - Cada vehículo viene equipado con arnés de seguridad de tres puntos regulables. - Necesario carnet de conducir válido en España, tipo B1. - Precio por Buggy (una o dos personas) - Los acompañantes en rutas en familia deberán ser mayores de 8 años. - El conductor asume cualquier responsabilidad o daño que pueda sufrir o causar por conducción indebida del vehículo. - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Karts en el Circuito Asturias",
+        "price": "30€",
+        "type": ["Rutas 4x4 y motor"],
+        "image": "/images/kart.jpg",
+        "sumary": "Pon a prueba tus habilidades de conducción solo o con amigos en un Gran Premio, y derrocha adrenalina subido en un veloz kart deportivo. Pista de más de 700 m con karts EKR 270cc. último modelo",
+        "duration": "20 minutos",
+        "cancelation": "15 días antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "- El Karting es una de las actividades más demandadas para celebrar cualquier evento. Nuestro circuito en Asturias tiene una pista de más de 700 m y un total de 7 curvas. - Un circuito a tan solo 10 min de Gijón y 12 de Oviedo. Ideal para grupos de empresas colegios e iniciación al karting o incluso individual. - Carrera de Karts Gran Premio GP2 corresponde a: - 10 minutos de briefing y seguridad en la conducción - 10 minutos de clasificación por tiempos cronometrados en el acto - 10 minutos de carrera final con salida desde parrilla y pódium - Antes de comenzar la actividad se os dará un pequeño curso informativo de entre 5 y 10 minutos, donde se os explicarán tanto las normas de seguridad como el funcionamiento de los vehículos. - A lo largo del recorrido encontrarás miembros del personal controlando que la carrera se desarrolla correctamente, además te ayudarán en el caso de que tengas problemas.",
+        "includes": ["Briefing sobre manejo y seguridad", "700 m. de pista y 7 curvas", "Kart y casco", "Seguro civil y accidentes"],
+        "location": ["https://www.google.com/maps?ll=43.427743,-5.757055&z=16&t=m&hl=en&gl=ES&mapclient=embed&cid=15914612516286578974"],
+        "prepare_experience": "- Llevar ropa cómoda y no muy holgada. - El calzado ha de ser cerrado, evitando tacones, plataformas y chanclas. - Los cascos son facilitados allí, para que podáis disfrutar de la actividad en perfectas condiciones de seguridad. - Reservar para aseguraros un hueco en la fecha y hora que queráis, además, os ahorraréis esperas. - Edad mínima 18 años. - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp ",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    },
+    {
+        "destination": ["Ribadesella"],
+        "title": "Ruta en lancha por la Costa de los Dinosaurios",
+        "price": "40€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/ruta-lancha-dinosaurios.jpg",
+        "sumary": "Esta ruta marina por la Costa Jurásica Asturiana se caracteriza por la abundancia de huellas y restos óseos de dinosaurios y otros reptiles jurásicos. Además, recorrerás las aguas mundialmente conocidas por albergar una de las especies marinas más misteriosas: el calamar gigante.",
+        "duration": "1 hora",
+        "cancelation": "No permite cancelación",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "- Recorrido de 10 millas aproximadamente, desde Ribadesella hasta Llames de Pría y vuelta. Saldremos desde Ribadesella en dirección Este y pasaremos por varios acantilados y pedrales increíbles hasta llegar a los Acantilados del Infierno. - Continuaremos hacia el Este, descubriendo playas, islotes y cuevas hasta llegar a los imponentes Bufones de Pría. - Luego nos alejaremos un poco de la costa para poder disfrutar de las majestuosas vistas de la Sierra del Cuera y los Picos de Europa. - A lo largo de este tramo de costa pueden visitarse 9 yacimientos de ignitas de dinosaurios, localizados en los concejos de Villaviciosa, Colunga y Ribadesella. - ​A escasas millas de Ribadesella, se encuentra también un verdadero tesoro submarino: El Cachucho. Primera área marina protegida en España, es una montaña submarina de más de cuatro kilómetros de altura y con una superficie semejante a los Picos de Europa, hogar de criaturas increíbles que a veces podremos ver muy de cerca. - En definitiva, descubrirás calas escondidas, playas paradisiacas, islotes y acantilados de vértigo, cuevas secretas, aves marinas, peces. En alguna ocasión podrás ver, delfines , y otros muchos animales que habitan estas aguas. ",
+        "includes": ["Tripulación profesional", "Ruta de 1 hora", "Chaleco salvavidas", "Actividad accesible discapacidad", "Máximo 12 personas", "Seguro RC y accidentes"],
+        "location": ["https://www.google.com/maps/place/Calle+Marqueses+de+Arg%C3%BCelles,+33560+Ribadesella,+Asturias/@43.462688,-5.059149,16z/data=!4m5!3m4!1s0xd49e209e92d4a8f:0x2a0917d60dff3d6b!8m2!3d43.4626875!4d-5.059149?hl=en"],
+        "prepare_experience": "- Traer ropa de abrigo (durante el trayecto en lancha la sensación térmica baja). - No llevar bultos grandes. - Llevar ropa comoda. - Proteccion solar (crema solar, agua, gafas de sol). - Si eres propenso al mareo, tomar una pastilla antimareo, 1h antes de embarcar. - Capacidad máxima de la embarcación 12 personas. - Actividad accesible dependiendo del grado de discapacidad, (consultar). - Perfecta para familias con niños a partir de 2 años. - Consúltanos por WhatsApp o mediante nuestro formulario, te contestamos al momento. - Precios: - Adulto: 40 ( 12 años o mas) - Niño: 22€ ( 11 años o menos) - Personas con discapacidad*: 35€ (discapacidad de un 33% mínimo) - Familias de 4 personas o más (mayores de 12 años) : 35€/persona - Grupos de 6 personas o mas: 35€/persona - Esta reserva no permite cancelación: en caso de condiciones meteorológicas adversas las empresa podrá aplazar la ruta o devolver el importe de la reserva al cliente.",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Ruta Guiada de Kayak de Mar en Gijón",
+        "price": "25€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/kayak-guiada-gijon.jpg",
+        "sumary": "Disfruta de una ruta en kayak por la bahía de Gijón con amigos, pareja o hijos. Nuestros monitores te enseñarán las técnicas necesarias para que remes como un profesional. Descubre la costa de Gijón desde una zona privilegiada.",
+        "duration": "1 hora",
+        "cancelation": "48 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "- El kayak es una de las actividades más entretenidas y divertidas que puedes practicar. Es completamente seguro ya que siempre llevarás contigo el chaleco salvavidas. - Tendrás el acompañamiento permanente de nuestro personal experto. - Esta práctica ofrece importantes beneficios para la salud y es un excelente ejercicio para la parte superior del cuerpo, como la espalda, el pecho y los brazos. Practicando Kayak mejoras considerablemente la fortaleza de tu corazón, reduces los niveles de estrés y te acercas a la naturaleza. - No necesitas una excelente condición física para esta actividad. - El kayak es una variedad de la piragua que puede contar con uno o dos tripulantes. En esta pequeña embarcación tendrás que impulsarte con los remos y disfrutarás la brisa y el ambiente deportivo del puerto de Gijón. - Puedes elegir el alquiler de kayak individual o doble, para que compartas este momento con tus amigos o familiares. - Disponemos de una flota de kayak rígidos de las mejores marcas, tanto individuales como dobles. - Prueba nuestros kayaks de travesía auto vaciables y embárcate en una aventura por el cantábrico. - Las rutas comienzan y finalizan en el Puerto Deportivo de Gijón.",
+        "includes": ["Chaleco salvavidas y traje de neopreno*", "Monitor cualificado", "Fotografías de la excursión", "Vestuario, ducha y taquillas"],
+        "location": ["https://www.google.com/maps/place/Puerto+Deportivo/@43.545284,-5.66772,14z/data=!4m5!3m4!1s0xd367c42b3369e65:0x43198197f2210a79!8m2!3d43.5452844!4d-5.6677203?hl=en"],
+        "prepare_experience": "- Ropa cómoda y de baño. - Crema solar. - Precio por persona. - Deberemos estar en las instalaciones con 30 minutos de antelación para prepararnos y salir puntuales. - La edad mínima para realizar la actividad son 6 años. De 6 a 16 años, siempre tienen que ir acompañados de un adulto o en su defecto, de un monitor. Mayores de 16 años pueden ir solos con autorización de los padres. - En el plazo de 24 horas un miembro del equipo se pondrá en contacto contigo para confirmar la hora a la que deseas realizar la actividad. - No se admiten devoluciones después de 48 horas desde que se realiza la reserva salvo cancelación por problemas meteorológicos o problemas técnicos de fuerza mayor por parte de la empresa, en alguno de estos casos se dará la posibilidad de cambiar de fecha o se devolverá el importe íntegro de la actividad.",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Ruta Guiada Paddle Surf en Gijón",
+        "price": "25€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/paddle-surf-guiada.jpg",
+        "sumary": "¡Navega, ríe y disfruta con el deporte acuático que todo el mundo quiere probar! Descubre la versión más ''tranqui'' del surf y aprende a remar con las olas a tus pies.",
+        "duration": "Por horas",
+        "cancelation": "48 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "- Si eres una persona curiosa y aventurera, el paddle surf está diseñado para ti: descubre los paisajes más recónditos de la costa asturiana de una forma original. - No hay velocidad de infarto… ¡pero la diversión sigue estando en lo más alto!. Si sumas una tabla de surf y un remo, el resultado es el deporte acuático de moda. - Nuestros monitores te guiarán y enseñarán durante toda la ruta. - Hay una palabra que define nuestra actividad de paddle surf: CALIDAD",
+        "includes": ["Chaleco salvavidas, material de snorkel y traje de neopreno*", "Monitor cualificado, explicación sobre técnica de remo y manejo", "Fotografías de la excursión", "Vestuario, ducha y taquillas"],
+        "location": ["https://www.google.com/maps/place/Puerto+Deportivo/@43.545284,-5.66772,14z/data=!4m5!3m4!1s0xd367c42b3369e65:0x43198197f2210a79!8m2!3d43.5452844!4d-5.6677203?hl=en"],
+        "prepare_experience": "-Ropa cómoda y de baño - Crema solar - Deberemos estar en las instalaciones con 30 minutos de antelación para prepararnos y salir puntuales. - Las tablas son individuales. - La edad mínima para realizar la actividad son 6 años. De 6 a 16 años, siempre tiene que ir con un adulto, o en su defecto, de monitor. Mayores de 16 años pueden ir solos con autorización de los padres. - En el plazo de 24 horas un miembro del equipo se pondrá en contacto contigo para confirmar la hora a la que deseas realizar la actividad. - No se admiten devoluciones después de 48 horas desde que se realiza la reserva salvo cancelación por problemas meteorológicos o problemas técnicos de fuerza mayor por parte de la empresa, en alguno de estos casos se dará la posibilidad de cambiar de fecha o se devolverá el importe íntegro de la actividad.",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Gijón"],
+        "title": "Motos de agua en Gijón",
+        "price": "80€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/motos-agua.jpg",
+        "sumary": "Disfruta de una apasionante excursión en moto de agua por las costas asturianas sin necesidad de titulación. Los recorridos comienzan desde el puerto deportivo de Gijón, están guiadas por un monitor y se adentran a mar abierto en travesías de 30 o 60 kilómetros. En mitad del trayecto hay una parada donde aprovecharemos para darnos un refrescante chapuzón y sacarnos fotos de la experiencia.",
+        "duration": "1 - 2 horas",
+        "cancelation": "48 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "- Se trata de excursiones a mar abierto guiadas por un monitor con su propia moto - El monitor guía, enseña las playas y puntos de referencia marítimas más importantes - En mitad de la excursión se hará una parada para sacarnos fotos y pegarnos un baño - 1 hora: Se recorre una distancia aproximada de 30 km - 2 horas: Se recorre una distancia aproximada de 60 km - Precio por moto con capacidad para dos personas",
+        "includes": ["Briefing sobre manejo y normas de navegación", "Chaleco salvavidas, material de snorkel y traje de neopreno*", "Fotografías de la excursión", "Vestuario, ducha y taquillas"],
+        "location": ["https://www.google.com/maps?ll=43.545284,-5.66772&z=14&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+Deportivo+33206+Gij%C3%B3n+Asturias"],
+        "prepare_experience": "- Ropa cómoda y de baño - Crema solar - Las distancias son aproximadas, ya que esto depende mucho de la velocidad del grupo y del estado del mar - Las motos son para una o dos personas - Deberemos estar en las instalaciones con 30 minutos de antelación para prepararnos y salir puntuales - La edad mínima para realizar la actividad son 16 años con autorización de los padres para pilotar y 12 años para ir de acompañante siempre con un adulto - Se podrá cancelar y cambiar la actividad avisando con 48 horas de antelación. No se admiten devoluciones salvo cancelación por problemas meteorológicos o problemas técnicos de fuerza mayor por parte de la empresa, en alguno de estos casos se dará la posibilidad de cambiar de fecha o se devolverá el importe íntegro de la actividad",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    },
+    {
+        "destination": ["Villaviciosa"],
+        "title": "Curso de Navegación Marítima",
+        "price": "15€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/curso-navegacion-maritima.jpg",
+        "sumary": "Descubre los paisajes del centro-oriente de Asturias mientras navegas a lo largo de la ría de Villaviciosa o Playa de Rodiles en un kayak. No esperes más para disfrutar de esta maravillosa actividad donde podrás aprender y perfeccionar distintos tipos de actividad abordo de un kayak. Las actividades constan de una breve parte teórica sobre técnica y normas de seguridad, y una mayor parte de travesía en el mar/ría.",
+        "duration": "1 hora",
+        "cancelation": "24 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "Formación técnica piragüismo: - Formación técnica de piragüismo en forma de clases personalizadas. El desarrollo de las clases dependerá directamente del objetivo que estéis buscando y de vuestra progresión. - Técnica de Base: son los conocimientos comunes e imprescindibles para todas las disciplinas. - Esquimontaje: Se trata de la técnica de seguridad que nos permite incorporarnos a la posición inicial después de un vuelco. - Kayak Mar: por su complejidad precisa de conocimientos más adaptados al medio marino. - Kayak Surf: esta disciplina exige el máximo dominio de la técnica de base y del esquimotage. - Debido a la variabilidad de las condiciones del mar, escribirnos por WhatsApp o llamarnos antes de reservar la fecha, ya que no todos los días se puede hacer esta actividad.",
+        "includes": ["Canoa y palas", "Chaleco salvavidas", "Seguro RC y accidentes", "Bidón impermeable"],
+        "location": ["https://www.google.com/maps?ll=43.524675,-5.390541&z=13&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+del+Puntal+33315+Asturias"],
+        "prepare_experience": "- Ropa deportiva, escarpines, toalla y gorra - Crema solar - Las programaciones de horario de las actividades serán susceptibles de cambios en función de las condiciones climatológicas, en tales casos se consensuará con el usuario la reprogramación de la actividad. En caso de cancelación por razones climatológicas se reembolsará la cuantía abonada.",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Poncebos"],
+        "title": "Barranquismo en Picos de Europa",
+        "price": "15€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/barranquismo-picos-europa.jpg",
+        "sumary": "Actividad entretenida por si misma y en plena naturaleza que no deja indiferente a nadie.",
+        "duration": "3 a 4 horas",
+        "cancelation": "24 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sdgsdfsdfsdf",
+        "includes": ["Material necesario"],
+        "location": ["Poncebos"],
+        "prepare_experience": "dsfsdfsfsdf",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    },
+    {
+        "destination": ["Arriondas"],
+        "title": "Rafting en el Río Sella",
+        "price": "40€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/rafting-sella.jpg",
+        "sumary": "El caudal de nuestros ríos y los desniveles que deben superar hacen del rafting una aventura apasionante.",
+        "duration": "4 horas",
+        "cancelation": "24 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sdgsdfsdfsdf",
+        "includes": ["Material necesario"],
+        "location": ["Arriondas"],
+        "prepare_experience": "dsfsdfsfsdf",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    },
+    {
+        "destination": ["Ribadesella"],
+        "title": "Alquiler de Paddle Surf en Ribadesella",
+        "price": "30€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/paddle-surf-ribadesella.jpg",
+        "sumary": "Puedes recorrer los últimos kilómetros del río Sella, la Playa de Santa Marina o los acantilados de Ribadesella.",
+        "duration": "2 horas",
+        "cancelation": "24 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sdgsdfsdfsdf",
+        "includes": ["Material necesario"],
+        "location": ["Ribadesella"],
+        "prepare_experience": "dsfsdfsfsdf",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    },
+    {
+        "destination": ["Villaviciosa"],
+        "title": "Estancia en Camarote en Villaviciosa",
+        "price": "60€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/estancia-camarote-villaviciosa.jpg",
+        "sumary": "El Estrella del Norte se encuentra en Villaviciosa, a menos de 1 km de Rodiles, en una zona donde se puede practicar senderismo. La embarcación situada en el Puerto del Puntal tiene vistas al mar y a la montaña. Disfruta de una experiencia diferente en un entorno totalmente marino.",
+        "duration": "Precio por noche",
+        "cancelation": "48 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "-La embarcación “Estrella del Norte” es de aspecto marinero, rústico y acogedor. - Este barco dispone de balcón con vistas al río, 1 dormitorio, sala de estar, TV de pantalla plana, cocina equipada con microondas y nevera y baño con ducha. - Nº de plazas: El aforo máximo del camarote es de 5 personas, siempre y cuando cumpla con la siguiente distribución: 2 adultos más 3 niños, o 3 adultos más 2 niños. - Tendrás la posibilidad de cocinar, ver la tele o escuchar la radio, darse una ducha y relajarse en cubierta mientras disfrutas del entorno de la ría de Villaviciosa: ecosistema de marisma, lugar de invernada y reposo de las poblaciones europeas de aves acuáticas. - ¡Disfruta del placer de dormir flotando!",
+        "includes": ["Camarote totalmente equipado", "Vistas impresionantes", "Balcón", "Seguro RC"],
+        "location": ["https://www.google.com/maps?ll=43.524675,-5.390541&z=13&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+del+Puntal+33315+Asturias"],
+        "prepare_experience": "- No se permite la entrada de mobiliario ajeno al camarote del barco. - El cliente se compromete a ocupar el camarote del barco a partir de las 16:00 horas (recomendamos que si por cualquier motivo la llegada es muy posterior a las 16:00 horas, nos lo comuniquen, ya que el horario máximo de llegada es a las 24:00 horas). Además, el cliente se compromete a dejar libre el camarote del barco a las 12:00 horas del día de salida fijado. - El cliente se compromete a dejar el camarote del barco en perfecto estado, al igual que se lo encuentra. - El cliente se compromete a no utilizar los medios de Prevención de Caída por la Borda (candeleros y asideros) como respaldo de reposo, para colgarse o cualquier otro abuso de fuerza para lo cual no están diseñados. - En caso de sufrir algún desperfecto el camarote del barco, es imprescindible que el Cliente lo comunique a los responsables haciéndose cargo de los costes de su reposición. - La programación de la estancia en el camarote será susceptible de cambios en función de las condiciones climatológicas, en tales casos se consensuará con el usuario la reprogramación de la experiencia. En caso de cancelación por razones climatológicas se reembolsará la cuantía abonada. - Máximo 5 personas (3 adultos + 2 niños o 2 adultos y 3 niños). - Pregúntanos dudas y disponibilidad por WhatsApp y te contestamos al momento.",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Poncebos"],
+        "title": "Ruta del Cares + Ruta 4x4 Picos de Europa",
+        "price": "35€",
+        "type": ["Actividades 4x4 y motor"],
+        "image": "/images/ruta-cares-4x4.jpg",
+        "sumary": "Combina Ruta del Cares con Ruta en 4x4 por Picos de Europa y adéntrate en la naturaleza más salvaje. Inicia desde Poncebos dejando tu coche en el parking habilitado. Empieza la ruta por tu cuenta como hizo Esther de @tengo_alma_viajera. Disfruta de un entorno natural privilegiado a lo largo de 12 km. Por la tarde iniciarás la ruta 4×4 por Picos de Europa y te devolveremos a Poncebos una vez finalice el recorrido. ¡No te dejara indiferente!",
+        "duration": "8 horas",
+        "cancelation": "24 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": true,
+        "experience_details": "Primer tramo: Trekking Ruta del Cares - Desde Poncebos comenzarás a pie la ruta del Cares donde disfrutarás de una de las rutas más bellas de toda Europa. 12 km aptos para niños y mayores. - Deja tu coche en el parking de Poncebos habilitado, justo a la entrada de la ruta. - Cuando llegues a Caín, podrás comer en los restaurantes del pueblo o llevarte tu picnic. - Sobre las 14:50 hrs te estarán esperando en el parking de Caín para iniciar la ruta en 4x4 por Picos de Europa. Segundo tramo: Ruta 4x4 Picos de Europa - Partiendo desde Caín visitaremos los 3 macizos: el Occidental, el Central y el Oriental, y las tres comunidades autónomas que comparten el Parque Nacional de Picos de Europa: Asturias, Castilla y León y Cantabria. - Abandonamos la garganta del Cares y nos vamos adentrando en la profundidad del Monte Corona. - Continuaremos avanzando por los Bosques de Valdeón en dirección al Puerto de Pandetrave. Atravesamos hayedos hasta llegar a lo más alto del puerto donde cogeremos una pista que nos lleva a hacia el límite con la Liébana Cántabra. - Desde allí comenzamos el descenso hacia Fuente Dé para luego adentrarnos en los bosques de robles y hayas que nos llevan hasta la base del teleférico. - Continuamos la ruta para ascender a los Puertos de Áliva, siguiendo parte de la Ruta de la Reconquista ascendemos a través del Hayedo de Nevandi a los Invernales de Higüedri. Desde aquí accedemos ya a los Puertos de Áliva. - Estamos en territorio de alta montaña, y circulamos bordeando antiguos circos glaciares, morrenas y valles por los que durante la última glaciación bajaron lenguas de hielo. - De este modo y enlazando con la carretera de Sotres atravesando las tres provincias y los tres macizos regresamos a Poncebos.",
+        "includes": ["Guía de montaña", "Ruta de senderismo", "Ruta en 4x4", "Seguro RC y accidentes"],
+        "location": ["https://www.google.com/maps?ll=43.212944,-4.90598&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Ca%C3%ADn+de+Valde%C3%B3n+24915+Le%C3%B3n"],
+        "prepare_experience": "- Calzado de montaña - Ropa según climatología - Agua - Hacer caso de las indicaciones de los monitores - ¡Disfruta de la experiencia con tu mascota! Tener en cuenta que tiene que ir 4 horas en el 4x4 (se hacen paradas cada poco) - NO incluye la comida: en Caín hay sitios muy ricos para comer y también puedes llevar tu picnic - Actividad en grupo con conductor - No está permitido que realicen la actividad embarazadas - No beber alcohol - Comunicar enfermedades o patologías que puedan afectar al desarrollo de la actividad",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Arriondas"],
+        "title": "Descenso del Sella LOW COST",
+        "price": "15€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/descenso-sella-low-cost.jpg",
+        "sumary": "Si visitas Asturias, haz como @el_viajedetuvida y @mr.coco.world y pasa un día muy divertido haciendo el Descenso Internacional del Sella versión LOW COST. Disfrutarás de un día inolvidable por uno de los ríos más famosos del Oriente Asturiano.",
+        "duration": "Entre 2 y 4 horas",
+        "cancelation": "48 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": true,
+        "experience_details": "- El descenso del Sella en canoa es una divertida experiencia que te llevará desde Arriondas a Fries, en las inmediaciones de Ribadesella, a lo largo de 14 kilómetros (si es que quieres hacerlo entero). - Por el mismo precio, puedes elegir dos paradas, en ambas te iremos a buscar y te llevaremos de vuelta a las instalaciones: - Primera parada: Toraño 8 km – 2 horas aprox. - Segunda parada: Fries 14 km – 4 horas aprox. - La dificultad es mínima, aunque hay que recordar que estamos en un río. - Incluso siendo la primera vez, enseguida te acostumbrarás a pilotar tu nave como un aventurero, ¡sólo hacen falta las ganas de disfrutar! - Podrás bajar solo en tu canoa, en pareja, con amigos o con tu mascota, el caso es pasarlo muy bien. - Por lo que podréis elegir (bajo demanda) entre canoas de 1, de 2 o incluso de 3 plazas, si venís con niños o con vuestro perro. - NIÑOS GRATIS: Si es menor de 10 años y va acompañado de 2 adultos en canoa triple - A lo largo del recorrido podréis encontrar chiringuitos en los que beber y comer algo.",
+        "includes": ["Material completo", "Servicio de guardallaves", "Transporte de vuelta a las instalaciones", "Vestuarios y duchas", "Bidón estanco", "Seguro RC y accidentes"],
+        "location": ["https://www.google.com/maps?ll=43.384537,-5.186741&z=14&t=m&hl=en&gl=ES&mapclient=embed&q=Arriondas+Asturias"],
+        "prepare_experience": "- Las salidas son entre las 11 y las 13 hrs. - La primera hora de recogida es a las 15 hrs. - La hora límite para finalizar la actividad y llegar a cualquiera de los puntos de recogida son las 18.00h. - Material incluido: - Chaleco salvavidas - Bidón por canoa para guardar pertenencias - Remos y canoas (de 1, 2 ó 3 plazas) - NO incluye picnic - NO tiene parking privado - Qué llevar: - Ropa de recambio - Crema solar, gorra y calzado adecuado para el río - Toalla y demás efectos para la ducha - IMPRESCINDIBLE saber nadar - Edad mínima 5 años",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Llanes"],
+        "title": "Paintball en Llanes",
+        "price": "25€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/paintball-llanes.jpg",
+        "sumary": "En nuestro campo de Paintball podrás disfrutar de este deporte de estrategia y pasar un día diferente con tus amigos, a tan solo 4km de Llanes en plena naturaleza.",
+        "duration": "2 horas",
+        "cancelation": "48 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": true,
+        "experience_details": "-El paintball es un deporte que se practica en la naturaleza por ello, las bolas de pintura son biodegradables y no tóxicas. - Las dimensiones de nuestro campo permiten la participación simultanea de hasta 18 jugadores, siendo posible cerrar una partida a partir de dos equipos de 4 contrincantes. - Así que reúne a cuantos más amigos mejor. - Reglas del juego: - Se hacen dos equipos, diferenciados por colores. Los jugadores llevan una pistola marcadora que dispara bolas de pintura. - El resto de la equipación lo componen todo tipo de protecciones, como petos, fundas, casco... que te proporcionaremos a tu llegada. - Consiste en poner o capturar una bandera en la base del equipo contrario sin que te marquen con alguna bola de pintura. - El paintball es un deporte seguro , en el que prima el trabajo en equipo. - Disfrutaras de diferentes partidas en las que tendrás la oportunidad de reengancharte al juego. - Cada partida de paintball es un juego diferente y los objetivos van cambiando. - Las partidas son cerradas, de tal forma que únicamente competirás con personas que conozcas",
+        "includes": ["Chaleco, máscara y petos", "Monitores", "100 bolas. Escenario tematizado", "Transporte de ida y vuelta", "Monos, guantes, cubrecuellos", "Seguro RC y accidentes"],
+        "location": ["https://www.google.com/maps?ll=43.433025,-4.808966&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Playa+de+Palombina+33595"],
+        "prepare_experience": "- Ropa cómoda: calzado deportivo cerrado o botas de montaña y aconsejable pantalones largos. - Ropa de recambio - Toalla y demás efectos para la ducha - Mínimo 8 personas - ​Máximo 16 personas - Podrán participar los mayores de 15 años , los menores deberán estar acompañados por un adulto que  firme la autorización para jugar.",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    },
+    {
+        "destination": ["Llanes"],
+        "title": "Alquiler de Bici por la Senda Costera",
+        "price": "10€",
+        "type": ["Actividades al aire libre"],
+        "image": "/images/llanes.jpg",
+        "sumary": "Haz como Majo de @el_viajedetuvida y pásalo en grande recorriendo las playas de Llanes en Bici. Si haces swipe en las fotos verás que no te contamos ninguna mentira. Paisajes espectaculares. Descubre la senda costera y tómate una cervecita al acabar: PLA-NA-ZO.",
+        "duration": "4 a 8 horas",
+        "cancelation": "24 hora antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": true,
+        "experience_details": "-Alquila tu bici medio día o el día completo y aprovecha al máximo. - Elije tu nivel o simplemente pregúntanos y de diremos que ruta puede ser la más adecuada. - Tienes desde acantilados, bosques, pistas, ríos, y un largo etc de recursos para poder visitar en bicicleta. Incluso visitar el centro de Llanes aprovechando sus calles peatonales. O la senda costera, que recorre todo el concejo desde Bustio hasta Ribadesella. - Playa de Gulpiyuri, la Cara de Cristo, playa de San Martín con su hermita, cetárea de Nimebro, playa de Torimbia... Nosotros te asesoramos.- Anímate a disfrutar de un buen día solo o en grupo. ¡Merece la pena! - Desde los 6 años.",
+        "includes": ["Monitor para la ruta guiada", "Casco y kit de repuesto", "Bici a medida", "Seguro RC"],
+        "location": ["https://www.google.com/maps?ll=43.433025,-4.808966&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Playa+de+Palombina+33595"],
+        "prepare_experience": "- Ropa cómoda - Calzado adecuado como unas deportivas. - Tenemos sillitas porta bebés, pregúntanos. - Estar en las instalaciones 15 minutos antes del horario establecido",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+            "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "location": ["Cangas de Onís"],
+        "includes": ["sadasd"],
+        "type": ["Actividades al aire libre"],
+        "destination": ["Cangas de Onís"],
+        "title": "Alquiler o ruta bicicleta montaña BTT",
+        "price": "15€",
+        "image": "/images/ruta-bicicleta-btt.jpg",
+        "sumary": "Recoge tu bici en Cangas de Onís y haz rutas espectaculares por Picos de Europa (SÓLO WHATSAPP)",
+        "duration": "4-8 horas",
+        "cancelation": "24 horas antes",
+        "children": false,
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sadasd",
+        "prepare_experience": "asdasdas",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            }
+    },
+    {
+        "destination": ["Pola de Laviana"],
+        "title": "Granja escuela en Pola de Laviana",
+        "price": "45€",
+        "type": ["Niños"],
+        "image": "/images/granja-escuela-laviana.jpg",
+        "sumary": "Conoce donde duermen y da de comer a burros, vacas, ovejas, corderitos y mucho más. Máx. 12 pax por grupo.",
+        "duration": "1.15 horas",
+        "cancelation": "24 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sadasd",
+        "includes": ["sadasd"],
+        "location": ["Pola de Laviana"],
+        "prepare_experience": "asdasdas",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Ribadesella"],
+        "title": "Ruta en Moto de Agua por la Costa de Ribadesella",
+        "price": "90€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/granja-escuela-laviana.jpg",
+        "sumary": "Disfruta de una impresionante excursión por la Costa Jurásica Asturiana y los Acantilados del Infierno subido en una potente moto acuática Yamaha. El paisaje es impresionante y sus aguas un ecosistema de pelicula, ¿te atreves?",
+        "duration": "1 horas",
+        "cancelation": "24 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sadasd",
+        "includes": ["sadasd"],
+        "location": ["Ribadesella"],
+        "prepare_experience": "asdasdas",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
+    }
+]
