@@ -1,62 +1,5 @@
 [
     {
-        "location": ["Cangas de Onís"],
-        "includes": ["sadasd"],
-        "type": ["Actividades al aire libre"],
-        "destination": ["Cangas de Onís"],
-        "title": "Alquiler o ruta bicicleta montaña BTT",
-        "price": "15€",
-        "image": "/images/ruta-bicicleta-btt.jpg",
-        "sumary": "Recoge tu bici en Cangas de Onís y haz rutas espectaculares por Picos de Europa (SÓLO WHATSAPP)",
-        "duration": "4-8 horas",
-        "cancelation": "24 horas antes",
-        "children": false,
-        "instant_confirmation": true,
-        "mobile_ticket": true,
-        "pet_friendly": false,
-        "experience_details": "sadasd",
-        "prepare_experience": "asdasdas",
-        "reviews": "4,9"
-    },
-    {
-        "destination": ["Pola de Laviana"],
-        "title": "Granja escuela en Pola de Laviana",
-        "price": "45€",
-        "type": ["Niños"],
-        "image": "/images/granja-escuela-laviana.jpg",
-        "sumary": "Conoce donde duermen y da de comer a burros, vacas, ovejas, corderitos y mucho más. Máx. 12 pax por grupo.",
-        "duration": "1.15 horas",
-        "cancelation": "24 horas antes",
-        "instant_confirmation": true,
-        "mobile_ticket": true,
-        "pet_friendly": false,
-        "experience_details": "sadasd",
-        "includes": ["sadasd"],
-        "location": ["Pola de Laviana"],
-        "prepare_experience": "asdasdas",
-        "reviews": "5",
-        "children": true
-    },
-    {
-        "destination": ["Ribadesella"],
-        "title": "Ruta en Moto de Agua por la Costa de Ribadesella",
-        "price": "90€",
-        "type": ["Actividades acuáticas"],
-        "image": "/images/granja-escuela-laviana.jpg",
-        "sumary": "Disfruta de una impresionante excursión por la Costa Jurásica Asturiana y los Acantilados del Infierno subido en una potente moto acuática Yamaha. El paisaje es impresionante y sus aguas un ecosistema de pelicula, ¿te atreves?",
-        "duration": "1 horas",
-        "cancelation": "24 horas antes",
-        "instant_confirmation": true,
-        "mobile_ticket": true,
-        "pet_friendly": false,
-        "experience_details": "sadasd",
-        "includes": ["sadasd"],
-        "location": ["Ribadesella"],
-        "prepare_experience": "asdasdas",
-        "reviews": "4,8",
-        "children": false
-    },
-    {
         "destination": ["Cangas de Onís"],
         "title": "Descenso del Sella desde Cangas de Onís",
         "price": "25€",
@@ -72,44 +15,13 @@
         "includes": ["Material completo", "Servicio de guardallaves", "Transporte de vuelta a las instalaciones", "Vestuarios y duchas", "Parking gratuito", "Seguro RC y accidentes"],
         "location": ["https://www.google.com/maps/place/33547+Triongo,+Asturias/@43.396722,-5.145143,16z/data=!4m5!3m4!1s0xd3618cd7ad359a5:0xc01e2d044d153daf!8m2!3d43.3972722!4d-5.1449987?hl=es"],
         "prepare_experience": "La recepción al público empieza a las 10 de la mañana pero las salidas son entre las 11 y las 13 hrs. Hora para finalizar el descenso: 18 hrs. El material incluido es: chaleco salvavidas, bidón por canoa para guardar pertenencias, remos y canoas (de 1, 2 ó 3 plazas). NO incluye picnic. Qué llevar: Ropa de recambio. Crema solar, gorra y calzado adecuado para el río. Toalla y demás efectos para la ducha. IMPRESCINDIBLE saber nadar. Edad mínima 5 años y 1,15 m altura ",
-        "reviews": [
+        "reviews": 
             {
                 "stars": "5",
-               "name": "Elisa Villaverde",
+                "name": "Elisa Villaverde",
                "date": "21/09/2020",
                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Patxi Ribacoba",
-                "date": "12/09/2020",
-                "comment": "No busquéis más. El mejor descenso del Sella, un trato estupendo y la mejor atención. Repetiremos la experiencia."
-            },
-            {
-                "stars": "5",
-                "name": "Sara M.",
-                "date": "22/08/2020",
-                "comment": "Hemos hecho el descenso con ellos hace 2 días y no nos ha podido ir mejor. Salen un poco más abajo de Arriondas asi q no sales con todo el mogollón con el resto de empresas, lo que hace que disfrutes del descenso prácticamente solos como hicimos nosotros (que es lo que buscábamos por el covid), y eso q íbamos con nuestra peque de 6 años."
-            },
-            {
-                "stars": "5",
-                "name": "Nicolás Estévez",
-                "date": "26/07/2020",
-                "comment": "Descenso Sella. Precio como en el resto de empresas, pero con el plus de un servicio impecable. Gracias 👌"
-            },
-            {
-                "stars": "5",
-                "name": "Nacho Pineda",
-                "date": "09/08/2020",
-                "comment": "Hicimos con ellos el descenso del Sella. Comienzas un poco más abajo de Arriondas, por lo que si sales pronto, evitas todo el trasiego de canoas que empieza sobre las 11 en dicha localidad. Buena atención y trato por parte de los empleados. Disponen de espacio de aparcamiento para clientes; las autocaravanas también pudieron aparcar allí. Recomendado 100%"
-            },
-            {
-                "stars": "5",
-                "name": "Alex Cienfuegos",
-                "date": "31/07/2020",
-                "comment": "Buena empresa para bajar el sella y hacer ademas otras actividades"
-            }
-        ],
         "children": true
     },
     {
@@ -128,20 +40,13 @@
         "includes": ["Guía oficial del Principado de Asturias", "Vestas espectaculares", "Avistamiento oso pardo", "Material necesario"],
         "location": ["https://www.google.com/maps?ll=43.101503,-6.248657&z=16&t=m&hl=es&gl=ES&mapclient=embed&cid=13301284063098533705"],
         "prepare_experience": "Te recomendamos llevar: Calzado cómodo, Sombrero o gorra, Crema protectora, Chubasquero, Comida. Estar en el punto de encuentro 15 minutos antes. Edad mínima 9 años. Cupo mínimo 2 personas. Se puede cancelar por causas meteorológicas, en tal caso se acordará con el cliente la devolución del importe de la actividad o el cambio de fecha. Adulto: 4O € | Niño: 20 € ",
-        "reviews": [
+        "reviews": 
             {
                 "stars": "5",
-               "name": "Pilar Perez",
-               "date": "27/09/2020",
-               "comment": "Fui con mi hija a Asturias y contratamos tres tours con ellos. Nos atendio David y lo recomendamos 100% Grandisimo profesional y las visitas maravillosas. La brisa asturiana te perfuma todo el cuerpo y es gracias a que es un guia oficial. Cuando volvamos repetiremos SEGURO!"
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Javier Melgar",
-                "date": "03/09/2020",
-                "comment": "Son unos profesionales de lujo, con conocimientos, amabilidad y trato amable. Los recomiendo sin género de duda."
-            }
-        ],
         "children": true
     },
     {
@@ -160,20 +65,13 @@
         "includes": ["Guía oficial del Principado de Asturias", "Visita a Picos de Europa", "Entrada a quesería y degustacion queso", "Transportes"],
         "location": ["https://www.google.com/maps/place/Parque+Nacional+de+Los+Picos+de+Europa/@43.186968,-4.871243,13z/data=!4m5!3m4!1s0x0:0xc6f2ab7c01f75b57!8m2!3d43.1869684!4d-4.8712433?hl=es"],
         "prepare_experience": "Te recomendamos llevar: Calzado cómodo, Sombrero o gorra, Crema protectora, Chubasquero, Comida. Estar en el punto de encuentro 15 minutos antes. Edad mínima 9 años. Cupo mínimo 2 personas. Se puede cancelar por causas meteorológicas, en tal caso se acordará con el cliente la devolución del importe de la actividad o el cambio de fecha. Adulto: 75 € | Niño: 35 € ",
-        "reviews": [
+        "reviews":             
             {
                 "stars": "5",
-               "name": "Pilar Perez",
-               "date": "27/09/2020",
-               "comment": "Fui con mi hija a Asturias y contratamos tres tours con ellos. Nos atendio David y lo recomendamos 100% Grandisimo profesional y las visitas maravillosas. La brisa asturiana te perfuma todo el cuerpo y es gracias a que es un guia oficial. Cuando volvamos repetiremos SEGURO!"
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Javier Melgar",
-                "date": "03/09/2020",
-                "comment": "Son unos profesionales de lujo, con conocimientos, amabilidad y trato amable. Los recomiendo sin género de duda."
-            }
-        ],
         "children": true
     },
     {
@@ -192,20 +90,13 @@
         "includes": ["Guía oficial del Principado de Asturias", "Material necesario", "Vistas espectaculares", "Seguro RC y accidentes"],
         "location": ["https://www.google.com/maps/place/Parque+Natural+de+Somiedo/@43.101503,-6.248657,16z/data=!4m5!3m4!1s0x0:0xb897a761d58d7749!8m2!3d43.101503!4d-6.2486568?hl=es"],
         "prepare_experience": "Te recomendamos llevar: Calzado cómodo, Sombrero o gorra, Crema protectora, Chubasquero, Muda, Comida. No incluye: transporte (el precio de la excursión, incluido transporte desde Oviedo, Gijón o Avilés es de 60 €)​. Edad mínima 9 años. Cupo mínimo 2 personas. Estar en el punto de encuentro 15 minutos antes. Edad mínima 9 años. Cupo mínimo 2 personas. Se puede cancelar por causas meteorológicas, en tal caso se acordará con el cliente la devolución del importe de la actividad o el cambio de fecha. Adulto: 55 € | Niño: 30 € ",
-        "reviews": [
+        "reviews": 
             {
                 "stars": "5",
-               "name": "Arminda González",
-               "date": "04/10/2020",
-               "comment": "Geniales! Muy contenta con la atención, dedicación y pasión por el trabajo bien hecho. Gracias por todo! Volveré!"
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Pilar Egido",
-                "date": "10/08/2020",
-                "comment": "Es una empresa seria con un gran conocimiento del paisaje y de la historia de Asturias. Son grandes profesionales. los recomiendo y no se arrepentira quien decida contratar sus servicios."
-            }
-        ],
         "children": true
     },
     {
@@ -224,20 +115,13 @@
         "includes": ["Material completo", "Vestuario, ducha y lockers", "Monitor cualificado", "Seguro RC y accidentes"],
         "location": ["https://www.google.com/maps?ll=43.541519,-5.659411&z=16&t=m&hl=es&gl=ES&mapclient=embed&q=Plaza+Romualdo+Alvargonz%C3%A1lez+Lanquine+33202+Gij%C3%B3n+Asturias"],
         "prepare_experience": "Bañador/bikini, chanclas y toalla. Bolsa o neceser para guardar mascarilla. Edad mínima 7 años. Imprescindible saber defenderse en el agua. Debido a las condiciones meteorológicas y mareas, el horario se divide en turno de mañana o turno de tarde. El alquiler de material será bajo petición previa: Se solicita depósito con tarjeta de 150 € para el alquiler de tabla de Surf y SUP y para Skate 90€. Llamar para confirmar la hora un día antes. Las programaciones de horario de las actividades serán susceptibles de cambios en función de las condiciones climatológicas, en tales casos se consensuará con el usuario la reprogramación de la actividad",
-        "reviews": [
+        "reviews": 
             {
                 "stars": "5",
-               "name": "Juan Español",
-               "date": "28/09/2020",
-               "comment": "Si quieres iniciarte en el surf, mucho mejor si tienes a alguien que te enseñe. Mi hija ha aprendido en Tablas. Y yo también. Me parece una buena idea y una actividad muy divertida y atractiva para el verano. Además, también tienes la posibilidad de alquilar tabla y neopreno para hacer tus pinitos por tu cuenta. Lo recomiendo"
+                "name": "Elisa Villaverde",
+                 "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Adrián",
-                "date": "27/08/2020",
-                "comment": "Gran experiencia el bautismo de surf con unos amigos. El monitor súper majo y la chica del mostrador también. La playa a un paso. Merece la pena."
-            }
-        ],
         "children": true
     },
     {
@@ -256,20 +140,13 @@
         "includes": ["Exclusivo catamarán", "Patrón profesional a bordo", "Totalmente equipado", "Seguro RC"],
         "location": ["https://www.google.com/maps?ll=43.545284,-5.66772&z=14&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+Deportivo+33206+Gij%C3%B3n+Asturias"],
         "prepare_experience": "El barco cuenta con gafas y aletas para que puedas hacer snorkel. A bordo puedes traer tu música y la comida y bebida que quieras. Toma precauciones si eres propenso al mareo",
-        "reviews": [
+        "reviews": 
             {
                 "stars": "5",
-               "name": "Natalia Castillo",
-               "date": "08/09/2020",
-               "comment": "Impresionante para pasar un día con amigos. Repetiremos el año que viene."
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Julio Suárez",
-                "date": "01/08/2020",
-                "comment": "Pasamos un día muy divertido. En cuanto al trato el personal es inmejorable, son muy agradables y atentos. Experiencia 100% recomendable."
-            }
-        ],
         "children": false
     },
     {
@@ -288,20 +165,13 @@
         "includes": ["Banana boat", "Material de seguridad", "Vestuarios", "Seguro civil y accidentes"],
         "location": ["https://www.google.com/maps/place/Playa+de+Poniente/@43.543477,-5.673307,16z/data=!4m5!3m4!1s0xd367c5ac04675d9:0xdb82caefa3a4d67f!8m2!3d43.5423363!4d-5.6724194?hl=en"],
         "prepare_experience": "- Duración: 15 minutos. Para mayor duración consultar. - Obligatorio saber nadar. - Capacidad para 6 personas. Mínimo grupos de 4 personas. - Necesario tener más de 16 años o autorización de los padres. - Precio: 18 € por persona. - Para practicar esta actividad acuática de entretenimiento se requiere de algunos accesorios importantes de seguridad que proporcionamos, como chalecos salvavidas y cascos y, sobre todo, hacer caso en todo momento de las recomendaciones del instructor. - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp.",
-        "reviews": [
+        "reviews": 
             {
-                "stars": "5",
-               "name": "Victor Marquez",
-               "date": "03/09/2020",
-               "comment": "Gente encantadora trato de 10 para repetir muchas veces"
+            "stars": "5",
+            "name": "Elisa Villaverde",
+            "date": "21/09/2020",
+            "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Maykel Carreiro",
-                "date": "10/08/2020",
-                "comment": "De lujo, muy buen trato e increíble experiencia!"
-            }
-        ],
         "children": true
     },
     {
@@ -320,20 +190,13 @@
         "includes": ["Material necesario", "100 bolas", "Vestuarios y duchas", "Seguro civil y accidentes"],
         "location": ["https://www.google.com/maps?ll=43.499235,-5.702154&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Pol%C3%ADgono+Porceyo+Urb.+Sec13+33392+Asturias"],
         "prepare_experience": "Incluye marcadora Tippman + accesorios. - Recarga de 100 bolas paintball. - Se proporciona: buzo camuflado de último diseño, máscara, protector de cuello y guantes. - Sin tiempo de duración. Siempre que tengáis bolas, se juega. - Llevar ropa y calzado de repuesto y cómodo (es posible que te ensucies). - Hacer caso al monitor. - Ajustarse bien la máscara y las protecciones. - Respetar una distancia entre jugadores antes de disparar (8 metros aproximadamente). - Apuntar con la marcadora al suelo cuando no se esté jugando. - El mínimo de participantes es de 6 personas. - Edad mínima 8 años. - Adultos a partir de 12 años. - 7 días antes se debe concretar el número exacto de personas. - Hay vestuarios, duchas y merendero en las instalaciones. - Adulto: 25 € | Niño: 20 € - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp",
-        "reviews": [
+        "reviews": 
             {
                 "stars": "5",
-               "name": "Txani Domínguez",
-               "date": "10/11/2020",
-               "comment": "Hicimos PaintBall en terreno muy hunedo y resbaladizo pero esta muy bien diseñado y al final se te hace corto y quieres maa pero te lo pasas de co.. Mu bien 😜 Gente muy maja y atenta. Recomendable."
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
             },
-            {
-                "stars": "5",
-                "name": "Juan Vega",
-                "date": "08/08/2020",
-                "comment": "Estuve en este lugar jugando con un grupo de amigos al painball y lo pasamos de miedo. Las instalaciones muy correctas y el campo es un bosque con numerosas construcciones de madera, todo muy bien preparado. Lo aconsejo totalmente."
-            }
-        ],
         "children": true
     },
     {
@@ -352,7 +215,13 @@
         "includes": ["Material necesario", "Monitor especializado", "Vestuarios y duchas", "Seguro civil y accidentes"],
         "location": ["https://www.google.com/maps/place/Pol%C3%ADgono+Porceyo+Urb.+Sec13,+33392,+Asturias/@43.499235,-5.702154,16z/data=!4m5!3m4!1s0xd367d317ed78a05:0x660d9e5aa19318f8!8m2!3d43.499235!4d-5.7021536?hl=en"],
         "prepare_experience": "-Ropa y calzado cómodo, deportivo y que no importe que se ensucie. - No se puede llevar ningún elemento punzante que pueda dañar los hinchables de algunas de las pruebas. - Se recomienda traerse ropa de cambio y toalla porque hay pruebas de agua. (Sino se quieren realizar las pruebas de agua consultarnos y se busca alternativa). - El mínimo de participantes es de 5 personas. - Para grupos de menos de 8 personas se puede juntar con otros grupos. - Edad mínima 12 años. - 5 días antes se debe concretar el número exacto de personas. - Se entrega mono y casco para los participantes que lo soliciten. - Hay vestuarios, duchas y merendero en las instalaciones. - Adulto: 30 € | Niño: 20 € - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp ",
-        "reviews": "4,5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -371,7 +240,13 @@
         "includes": ["Pelota en la que se va montado", "Monitor especializado", "Balón fútbol", "Vestuario y duchas"],
         "location": ["https://www.google.com/maps/place/Pol%C3%ADgono+Porceyo+Urb.+Sec13,+33392,+Asturias/@43.499235,-5.702154,16z/data=!4m5!3m4!1s0xd367d317ed78a05:0x660d9e5aa19318f8!8m2!3d43.499235!4d-5.7021536?hl=en"],
         "prepare_experience": "- Llevar calzado deportivo para césped artificial. - Llevar ropa de repuesto y ropa cómoda(es posible que te ensucies) - Concretar número de participantes con 7 días de antelación. - En ocasiones se debe realizar un depósito para garantizar la reserva. El resto se pagaría al finalizar la actividad. - El mínimo de participantes es de 6 personas. - Hay vestuarios, duchas y merendero en las instalaciones. - Niño a partir de 8 años. - Adulto a partir de 12 años. - Adulto: 20 € | Niño: 15 € - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp ",
-        "reviews": "4,8",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -390,7 +265,13 @@
         "includes": ["Briefing sobre manejo y seguridad", "Vestuario y duchas", "Buggy de alta calidad", "Seguro civil y accidentes"],
         "location": ["https://www.google.com/maps?ll=43.499235,-5.702154&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Pol%C3%ADgono+Porceyo+Urb.+Sec13+33392+Asturiasn"],
         "prepare_experience": "- Se trata de una ruta turística guiada con monitor, el cual explicará todo lo necesario en términos de seguridad antes de comenzar la ruta. - En esta actividad recomendamos traer ropa que no importe que se ensucie y que sea cómoda. Disponemos de vestuarios y duchas para cambiarse de ropa. - Conviene traer cazadora de abrigo y gafas de sol si fuera necesario según climatología. - Reservar para aseguraros un hueco en la fecha y hora que queráis, además, os ahorraréis esperas. - Garantía de vehículos de alta calidad, constante revisión y mantenimiento por profesionales. - Cada vehículo viene equipado con arnés de seguridad de tres puntos regulables. - Necesario carnet de conducir válido en España, tipo B1. - Precio por Buggy (una o dos personas) - Los acompañantes en rutas en familia deberán ser mayores de 8 años. - El conductor asume cualquier responsabilidad o daño que pueda sufrir o causar por conducción indebida del vehículo. - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp",
-        "reviews": "4,8",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -409,7 +290,13 @@
         "includes": ["Briefing sobre manejo y seguridad", "700 m. de pista y 7 curvas", "Kart y casco", "Seguro civil y accidentes"],
         "location": ["https://www.google.com/maps?ll=43.427743,-5.757055&z=16&t=m&hl=en&gl=ES&mapclient=embed&cid=15914612516286578974"],
         "prepare_experience": "- Llevar ropa cómoda y no muy holgada. - El calzado ha de ser cerrado, evitando tacones, plataformas y chanclas. - Los cascos son facilitados allí, para que podáis disfrutar de la actividad en perfectas condiciones de seguridad. - Reservar para aseguraros un hueco en la fecha y hora que queráis, además, os ahorraréis esperas. - Edad mínima 18 años. - Antes de reservar, pregúntanos disponibilidad y horario por WhatsApp ",
-        "reviews": "4,9",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": false
     },
     {
@@ -428,7 +315,13 @@
         "includes": ["Tripulación profesional", "Ruta de 1 hora", "Chaleco salvavidas", "Actividad accesible discapacidad", "Máximo 12 personas", "Seguro RC y accidentes"],
         "location": ["https://www.google.com/maps/place/Calle+Marqueses+de+Arg%C3%BCelles,+33560+Ribadesella,+Asturias/@43.462688,-5.059149,16z/data=!4m5!3m4!1s0xd49e209e92d4a8f:0x2a0917d60dff3d6b!8m2!3d43.4626875!4d-5.059149?hl=en"],
         "prepare_experience": "- Traer ropa de abrigo (durante el trayecto en lancha la sensación térmica baja). - No llevar bultos grandes. - Llevar ropa comoda. - Proteccion solar (crema solar, agua, gafas de sol). - Si eres propenso al mareo, tomar una pastilla antimareo, 1h antes de embarcar. - Capacidad máxima de la embarcación 12 personas. - Actividad accesible dependiendo del grado de discapacidad, (consultar). - Perfecta para familias con niños a partir de 2 años. - Consúltanos por WhatsApp o mediante nuestro formulario, te contestamos al momento. - Precios: - Adulto: 40 ( 12 años o mas) - Niño: 22€ ( 11 años o menos) - Personas con discapacidad*: 35€ (discapacidad de un 33% mínimo) - Familias de 4 personas o más (mayores de 12 años) : 35€/persona - Grupos de 6 personas o mas: 35€/persona - Esta reserva no permite cancelación: en caso de condiciones meteorológicas adversas las empresa podrá aplazar la ruta o devolver el importe de la reserva al cliente.",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -447,7 +340,13 @@
         "includes": ["Chaleco salvavidas y traje de neopreno*", "Monitor cualificado", "Fotografías de la excursión", "Vestuario, ducha y taquillas"],
         "location": ["https://www.google.com/maps/place/Puerto+Deportivo/@43.545284,-5.66772,14z/data=!4m5!3m4!1s0xd367c42b3369e65:0x43198197f2210a79!8m2!3d43.5452844!4d-5.6677203?hl=en"],
         "prepare_experience": "- Ropa cómoda y de baño. - Crema solar. - Precio por persona. - Deberemos estar en las instalaciones con 30 minutos de antelación para prepararnos y salir puntuales. - La edad mínima para realizar la actividad son 6 años. De 6 a 16 años, siempre tienen que ir acompañados de un adulto o en su defecto, de un monitor. Mayores de 16 años pueden ir solos con autorización de los padres. - En el plazo de 24 horas un miembro del equipo se pondrá en contacto contigo para confirmar la hora a la que deseas realizar la actividad. - No se admiten devoluciones después de 48 horas desde que se realiza la reserva salvo cancelación por problemas meteorológicos o problemas técnicos de fuerza mayor por parte de la empresa, en alguno de estos casos se dará la posibilidad de cambiar de fecha o se devolverá el importe íntegro de la actividad.",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -466,7 +365,13 @@
         "includes": ["Chaleco salvavidas, material de snorkel y traje de neopreno*", "Monitor cualificado, explicación sobre técnica de remo y manejo", "Fotografías de la excursión", "Vestuario, ducha y taquillas"],
         "location": ["https://www.google.com/maps/place/Puerto+Deportivo/@43.545284,-5.66772,14z/data=!4m5!3m4!1s0xd367c42b3369e65:0x43198197f2210a79!8m2!3d43.5452844!4d-5.6677203?hl=en"],
         "prepare_experience": "-Ropa cómoda y de baño - Crema solar - Deberemos estar en las instalaciones con 30 minutos de antelación para prepararnos y salir puntuales. - Las tablas son individuales. - La edad mínima para realizar la actividad son 6 años. De 6 a 16 años, siempre tiene que ir con un adulto, o en su defecto, de monitor. Mayores de 16 años pueden ir solos con autorización de los padres. - En el plazo de 24 horas un miembro del equipo se pondrá en contacto contigo para confirmar la hora a la que deseas realizar la actividad. - No se admiten devoluciones después de 48 horas desde que se realiza la reserva salvo cancelación por problemas meteorológicos o problemas técnicos de fuerza mayor por parte de la empresa, en alguno de estos casos se dará la posibilidad de cambiar de fecha o se devolverá el importe íntegro de la actividad.",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -485,7 +390,13 @@
         "includes": ["Briefing sobre manejo y normas de navegación", "Chaleco salvavidas, material de snorkel y traje de neopreno*", "Fotografías de la excursión", "Vestuario, ducha y taquillas"],
         "location": ["https://www.google.com/maps?ll=43.545284,-5.66772&z=14&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+Deportivo+33206+Gij%C3%B3n+Asturias"],
         "prepare_experience": "- Ropa cómoda y de baño - Crema solar - Las distancias son aproximadas, ya que esto depende mucho de la velocidad del grupo y del estado del mar - Las motos son para una o dos personas - Deberemos estar en las instalaciones con 30 minutos de antelación para prepararnos y salir puntuales - La edad mínima para realizar la actividad son 16 años con autorización de los padres para pilotar y 12 años para ir de acompañante siempre con un adulto - Se podrá cancelar y cambiar la actividad avisando con 48 horas de antelación. No se admiten devoluciones salvo cancelación por problemas meteorológicos o problemas técnicos de fuerza mayor por parte de la empresa, en alguno de estos casos se dará la posibilidad de cambiar de fecha o se devolverá el importe íntegro de la actividad",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": false
     },
     {
@@ -504,7 +415,13 @@
         "includes": ["Canoa y palas", "Chaleco salvavidas", "Seguro RC y accidentes", "Bidón impermeable"],
         "location": ["https://www.google.com/maps?ll=43.524675,-5.390541&z=13&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+del+Puntal+33315+Asturias"],
         "prepare_experience": "- Ropa deportiva, escarpines, toalla y gorra - Crema solar - Las programaciones de horario de las actividades serán susceptibles de cambios en función de las condiciones climatológicas, en tales casos se consensuará con el usuario la reprogramación de la actividad. En caso de cancelación por razones climatológicas se reembolsará la cuantía abonada.",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -523,7 +440,13 @@
         "includes": ["Material necesario"],
         "location": ["Poncebos"],
         "prepare_experience": "dsfsdfsfsdf",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": false
     },
     {
@@ -542,7 +465,13 @@
         "includes": ["Material necesario"],
         "location": ["Arriondas"],
         "prepare_experience": "dsfsdfsfsdf",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": false
     },
     {
@@ -561,7 +490,13 @@
         "includes": ["Material necesario"],
         "location": ["Ribadesella"],
         "prepare_experience": "dsfsdfsfsdf",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": false
     },
     {
@@ -580,7 +515,13 @@
         "includes": ["Camarote totalmente equipado", "Vistas impresionantes", "Balcón", "Seguro RC"],
         "location": ["https://www.google.com/maps?ll=43.524675,-5.390541&z=13&t=m&hl=en&gl=ES&mapclient=embed&q=Puerto+del+Puntal+33315+Asturias"],
         "prepare_experience": "- No se permite la entrada de mobiliario ajeno al camarote del barco. - El cliente se compromete a ocupar el camarote del barco a partir de las 16:00 horas (recomendamos que si por cualquier motivo la llegada es muy posterior a las 16:00 horas, nos lo comuniquen, ya que el horario máximo de llegada es a las 24:00 horas). Además, el cliente se compromete a dejar libre el camarote del barco a las 12:00 horas del día de salida fijado. - El cliente se compromete a dejar el camarote del barco en perfecto estado, al igual que se lo encuentra. - El cliente se compromete a no utilizar los medios de Prevención de Caída por la Borda (candeleros y asideros) como respaldo de reposo, para colgarse o cualquier otro abuso de fuerza para lo cual no están diseñados. - En caso de sufrir algún desperfecto el camarote del barco, es imprescindible que el Cliente lo comunique a los responsables haciéndose cargo de los costes de su reposición. - La programación de la estancia en el camarote será susceptible de cambios en función de las condiciones climatológicas, en tales casos se consensuará con el usuario la reprogramación de la experiencia. En caso de cancelación por razones climatológicas se reembolsará la cuantía abonada. - Máximo 5 personas (3 adultos + 2 niños o 2 adultos y 3 niños). - Pregúntanos dudas y disponibilidad por WhatsApp y te contestamos al momento.",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -599,7 +540,13 @@
         "includes": ["Guía de montaña", "Ruta de senderismo", "Ruta en 4x4", "Seguro RC y accidentes"],
         "location": ["https://www.google.com/maps?ll=43.212944,-4.90598&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Ca%C3%ADn+de+Valde%C3%B3n+24915+Le%C3%B3n"],
         "prepare_experience": "- Calzado de montaña - Ropa según climatología - Agua - Hacer caso de las indicaciones de los monitores - ¡Disfruta de la experiencia con tu mascota! Tener en cuenta que tiene que ir 4 horas en el 4x4 (se hacen paradas cada poco) - NO incluye la comida: en Caín hay sitios muy ricos para comer y también puedes llevar tu picnic - Actividad en grupo con conductor - No está permitido que realicen la actividad embarazadas - No beber alcohol - Comunicar enfermedades o patologías que puedan afectar al desarrollo de la actividad",
-        "reviews": "4,8",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -618,7 +565,13 @@
         "includes": ["Material completo", "Servicio de guardallaves", "Transporte de vuelta a las instalaciones", "Vestuarios y duchas", "Bidón estanco", "Seguro RC y accidentes"],
         "location": ["https://www.google.com/maps?ll=43.384537,-5.186741&z=14&t=m&hl=en&gl=ES&mapclient=embed&q=Arriondas+Asturias"],
         "prepare_experience": "- Las salidas son entre las 11 y las 13 hrs. - La primera hora de recogida es a las 15 hrs. - La hora límite para finalizar la actividad y llegar a cualquiera de los puntos de recogida son las 18.00h. - Material incluido: - Chaleco salvavidas - Bidón por canoa para guardar pertenencias - Remos y canoas (de 1, 2 ó 3 plazas) - NO incluye picnic - NO tiene parking privado - Qué llevar: - Ropa de recambio - Crema solar, gorra y calzado adecuado para el río - Toalla y demás efectos para la ducha - IMPRESCINDIBLE saber nadar - Edad mínima 5 años",
-        "reviews": "4,7",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
     },
     {
@@ -637,7 +590,13 @@
         "includes": ["Chaleco, máscara y petos", "Monitores", "100 bolas. Escenario tematizado", "Transporte de ida y vuelta", "Monos, guantes, cubrecuellos", "Seguro RC y accidentes"],
         "location": ["https://www.google.com/maps?ll=43.433025,-4.808966&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Playa+de+Palombina+33595"],
         "prepare_experience": "- Ropa cómoda: calzado deportivo cerrado o botas de montaña y aconsejable pantalones largos. - Ropa de recambio - Toalla y demás efectos para la ducha - Mínimo 8 personas - ​Máximo 16 personas - Podrán participar los mayores de 15 años , los menores deberán estar acompañados por un adulto que  firme la autorización para jugar.",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": false
     },
     {
@@ -656,7 +615,88 @@
         "includes": ["Monitor para la ruta guiada", "Casco y kit de repuesto", "Bici a medida", "Seguro RC"],
         "location": ["https://www.google.com/maps?ll=43.433025,-4.808966&z=16&t=m&hl=en&gl=ES&mapclient=embed&q=Playa+de+Palombina+33595"],
         "prepare_experience": "- Ropa cómoda - Calzado adecuado como unas deportivas. - Tenemos sillitas porta bebés, pregúntanos. - Estar en las instalaciones 15 minutos antes del horario establecido",
-        "reviews": "5",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+            "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
         "children": true
+    },
+    {
+        "location": ["Cangas de Onís"],
+        "includes": ["sadasd"],
+        "type": ["Actividades al aire libre"],
+        "destination": ["Cangas de Onís"],
+        "title": "Alquiler o ruta bicicleta montaña BTT",
+        "price": "15€",
+        "image": "/images/ruta-bicicleta-btt.jpg",
+        "sumary": "Recoge tu bici en Cangas de Onís y haz rutas espectaculares por Picos de Europa (SÓLO WHATSAPP)",
+        "duration": "4-8 horas",
+        "cancelation": "24 horas antes",
+        "children": false,
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sadasd",
+        "prepare_experience": "asdasdas",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            }
+    },
+    {
+        "destination": ["Pola de Laviana"],
+        "title": "Granja escuela en Pola de Laviana",
+        "price": "45€",
+        "type": ["Niños"],
+        "image": "/images/granja-escuela-laviana.jpg",
+        "sumary": "Conoce donde duermen y da de comer a burros, vacas, ovejas, corderitos y mucho más. Máx. 12 pax por grupo.",
+        "duration": "1.15 horas",
+        "cancelation": "24 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sadasd",
+        "includes": ["sadasd"],
+        "location": ["Pola de Laviana"],
+        "prepare_experience": "asdasdas",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": true
+    },
+    {
+        "destination": ["Ribadesella"],
+        "title": "Ruta en Moto de Agua por la Costa de Ribadesella",
+        "price": "90€",
+        "type": ["Actividades acuáticas"],
+        "image": "/images/granja-escuela-laviana.jpg",
+        "sumary": "Disfruta de una impresionante excursión por la Costa Jurásica Asturiana y los Acantilados del Infierno subido en una potente moto acuática Yamaha. El paisaje es impresionante y sus aguas un ecosistema de pelicula, ¿te atreves?",
+        "duration": "1 horas",
+        "cancelation": "24 horas antes",
+        "instant_confirmation": true,
+        "mobile_ticket": true,
+        "pet_friendly": false,
+        "experience_details": "sadasd",
+        "includes": ["sadasd"],
+        "location": ["Ribadesella"],
+        "prepare_experience": "asdasdas",
+        "reviews": 
+            {
+                "stars": "5",
+                "name": "Elisa Villaverde",
+                "date": "21/09/2020",
+                "comment": "Hacer el Descenso del Sella es una aventura única. Explican a los inexpertos como yo la forma de descender por el río en un kayak."
+            },
+        "children": false
     }
 ]
