@@ -2,6 +2,8 @@
   <div>
      <Home-intro/>
      <Home-destinations/>
+     <!-- <Card-experience/> -->
+     <!-- <CardListExperiences/> -->
      <Home-cancelation-policy/>
      <Home-about/>
      <Home-blog-all/>
@@ -10,12 +12,14 @@
 </template>
 
 <script>
-import HomeIntro from '../organisms/Home-intro'
+import HomeIntro from '../organisms/Home-intro.vue'
 import HomeDestinations from '../organisms/Home-destinations'
 import HomeCancelationPolicy from '../organisms/Home-cancelation-policy'
-import ImagesAwards from '../atoms/Images-awards'
 import HomeAbout from '../organisms/Home-about'
-import HomeBlogAll from '../organisms/Home-blog-all.vue'
+import ImagesAwards from '../atoms/Images-awards.vue'
+ import HomeBlogAll from '../organisms/Home-blog-all.vue'
+ //import CardListExperiences from '../components/CardListExperiences.vue'
+// import CardExperience from '../components/Card-experience.vue'
 
 export default {
   name: 'Home',
@@ -23,12 +27,12 @@ export default {
     HomeIntro,
     HomeDestinations,
     HomeCancelationPolicy,
-    CardExperience,
-    ImagesAwards,
     HomeAbout,
-    HomeBlogAll
+    ImagesAwards,
+    HomeBlogAll,
+    // CardExperience,
+    //CardListExperiences
   }
-
 }
 </script>
 

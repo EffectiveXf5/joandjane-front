@@ -1,18 +1,19 @@
 <template>
-    <div>
+    <div id="header-mobile">
         <nav 
         :nav-links="navLinks" 
         class="header">
-        <h1 id="titulo-header">JO&JANE</h1>  
-        <ul v-if="!mobileview" class="menu-nav">
+        <ul v-if="!mobileview" id="menu-nav">
           <li v-for="(link, index) in navLinks" :key="index">
             <router-link :to="link.path" id="links"> {{link.name}} </router-link>
           </li>
+           <a  href="https://www.virtual.joandjane.es/" id="virtual"> VIRTUAL</a>
         </ul>
-        <a  href="https://www.virtual.joandjane.es/" id="virtual"> VIRTUAL</a>
-        <div id="navegation-icon">
-          <img src="../assets/images/bars-solid.svg" alt="menu-toggle">
-        </div>
+        <!-- <div id="social-icon">
+           <i fab fa-twitter></i>
+           <i fab fa-instagram></i>
+          <!<img src="../assets/images/bars-solid.svg" alt="menu-toggle">
+        </div> -->
         </nav>
        
     </div>
@@ -56,15 +57,17 @@ export default {
 
 <style scoped>
 * {
-    background-color: var(--primary-color);
+    background-color: var(--senary-color);
     font-family: var(--primary-font-family);
+   
+}
+@media (min-width: 1000px) {
+#header-mobile{
     display:flex;
     align-items: center;
     width:100%;
     height: 50%;
 }
-
-@media (min-width: 1000px) {
 #titulo-header {
     margin-left:3%;
     padding-top:1.5%;
@@ -76,28 +79,18 @@ export default {
    }
 #navegation-icon{
    width: 10%;
+   border: solid 5px black;
    margin-right: 5%;
-   display:none;
+  display:none;
    }
-.menu-nav {
-    font-size: 1.4em;
-    margin-left:-40%;
-    }
- .menu-nav li {
-   /* margin-right: 2%;
-    padding: 2% 0 2% 0;
-    font-weight: bolder;*/
-    align-content: center;
-}
-.menu-nav li:hover {
+
+#menu-nav li:hover {
    cursor: pointer;
    color:white;
    font-weight: bold;
 } 
 
 #links {
-  /*  margin-right: 2%;*/
-    margin:2%;
     padding: 2%;
     font-weight: bolder;
     color:black;
@@ -115,9 +108,7 @@ export default {
     border-radius: 15px;
     padding: 1% 0 1% 0;
     margin-right:3%;
-    width:25%;
     cursor:pointer;
-    
 
 }
 #virtual:hover {
@@ -127,48 +118,27 @@ export default {
 }
 
 
-  
+   
 }
 
 @media (max-width: 999px) and (min-width: 425px) {
+.header {
+display:flex;
+font-size: 3rem;
+justify-content: flex-end;
+row-gap: 5%;
+}
 #titulo-header {
-    margin-left:3%;
-    padding-top:1.5%;
-    padding-bottom: 1.5%;;
     font-size: 2.5rem;
 }
 #titulo-header:hover {
    cursor:pointer;
    }
-#navegation-icon{
-   width: 10%;
-   margin-right: 5%;
-   border: none;
-   display:block;
-   }
-.menu-nav {
-    font-size: 1.4em;
-    margin-left:-45%;
-    flex-wrap: nowrap;
-    display:none;
-}
-/* .menu-nav li {
-    margin-right: 2%;
-    padding: 2% 0 2% 0;
-    font-weight: bolder;
-}
-.menu-nav li:hover {
-   cursor: pointer;
-   color:white;
-   font-weight: bold;
-} */
 
 #links {
-    margin-right: 2%;
-    padding: 2% 0 2% 0;
+    
     font-weight: bolder;
     color:black;
-    display:flex;
 }
 #links:hover {
    cursor: pointer;
@@ -182,14 +152,13 @@ export default {
     justify-content: center;
     border-radius: 15px;
     padding: 1% 0 1% 0;
-    margin-right: 3%;;
-     width:25%;
+    display:none;
+
 }
 #virtual:hover {
     background-color: var(--primary-color);
     color: black;
     box-shadow: inset 0 0 0 2.5px black;
-    
 }
 
 }
