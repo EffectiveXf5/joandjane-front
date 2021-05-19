@@ -3,7 +3,7 @@
         <nav 
         :nav-links="navLinks" 
         class="header">
-        <h1 id="titulo-header">JO&JANE</h1>  
+        <router-link to='/' id="titulo-header">JO&JANE</router-link>  
         <ul v-if="!mobileview" class="menu-nav">
           <li v-for="(link, index) in navLinks" :key="index">
             <router-link :to="link.path" id="links"> {{link.name}} </router-link>
@@ -70,6 +70,7 @@ export default {
     padding-top:1.5%;
     padding-bottom: 1.5%;;
     font-size: 2.5rem;
+    color:black
 }
 #titulo-header:hover {
    cursor:pointer;
