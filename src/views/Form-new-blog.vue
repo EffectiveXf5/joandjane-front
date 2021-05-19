@@ -78,7 +78,9 @@ export default {
 </script>
 
 <style scoped>
-
+*{
+  font-family: var(--primary-font-family);
+}
   .main__title {
     padding: 50px;
     text-align: center;
