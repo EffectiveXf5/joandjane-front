@@ -1,13 +1,17 @@
 <template>
   <div>
-    <h1 class="activitie-title">Blog Post</h1>
+    <One-post-blog/>
   </div>
 </template>
 
 <script>
+import OnePostBlog from '@/components/One-post-blog.vue'
 
 export default {
-  name: 'Blog-post',
+  name: 'Blog-global',
+  components: {
+    OnePostBlog
+  }
 }
 </script>
 

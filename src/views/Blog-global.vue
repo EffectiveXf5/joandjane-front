@@ -1,13 +1,17 @@
 <template>
   <div>
-    <h1 class="activitie-title">Blog general</h1>
+    <Card-list-blog />
   </div>
 </template>
 
 <script>
+import CardListBlog from '../components/Card-list-blog.vue'
 
 export default {
-  name: 'Blog-general',
+  name: 'Blog-global',
+  components: {
+    CardListBlog
+  }
 }
 </script>
 
