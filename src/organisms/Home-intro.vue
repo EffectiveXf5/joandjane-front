@@ -73,4 +73,15 @@ export default {
     font-size: 2rem;
   }
 
+  @media(max-width: 1000px) {
+    .container__logo-container img {
+      display: none;
+    }
+
+    .container__article-title {
+      font-size: 40px;
+    }
+
+  }
+
 </style>
