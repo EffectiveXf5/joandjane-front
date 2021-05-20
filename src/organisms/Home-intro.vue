@@ -12,17 +12,14 @@
         <h1 class="container__article-title">RESERVA LAS ACTIVIDAD<br>MÁS AUTENTICAS DE ASTURIAS</h1>
         <h3 class="container__article-hasthag"><i class="fas fa-hashtag"></i>BookLikeALocal</h3>
       </article>
-      <!-- <Search/> -->
     </section>
 </template>
 
 <script>
-/* import Search from '../atoms/Search.vue' */
 
 export default {
   name: 'Home-intro',
   components: {
-    /* Search, */
   }
 }
 </script>
@@ -52,7 +49,7 @@ export default {
   
   .container__article {
     position: absolute;
-    top: 45%;
+    top: 30%;
     width: 100%;
   }
 
@@ -61,6 +58,7 @@ export default {
     font-size: 61px;
     color: white;
     text-align: center;
+    margin-bottom: 80px;
   }
 
   .container__article-hasthag {
