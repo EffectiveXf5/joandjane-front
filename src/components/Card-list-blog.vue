@@ -44,6 +44,9 @@ export default {
 </script>
 
 <style scoped>
-
+.main__section{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
 </style>

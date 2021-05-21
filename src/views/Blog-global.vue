@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2 class="title-blog-list">Inpiración para <br>viajar por Asturias</h2>
     <Card-list-blog />
   </div>
 </template>
