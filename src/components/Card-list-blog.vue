@@ -47,6 +47,12 @@ export default {
 .main__section{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top:2rem;
+  row-gap: 1rem;
+  /* column-gap:2rem; */
+  align-content: center;
+  width: 70%;
+  margin:auto;
 }
 
 </style>

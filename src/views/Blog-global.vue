@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="title-blog-list">Inpiración para <br>viajar por Asturias</h2>
+    <h2 class="title-blog-list">Inpiración para viajar por Asturias</h2>
     <Card-list-blog />
   </div>
 </template>
@@ -17,5 +17,8 @@ export default {
 </script>
 
 <style scoped>
-
+.title-blog-list{
+  margin-bottom: 2rem;
+  text-align: center;
+}
 </style>

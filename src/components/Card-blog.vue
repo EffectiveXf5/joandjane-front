@@ -3,13 +3,14 @@
       <div @click="getOneData(blog._id)">
         <div class="card-blog">
           <div class="card-blog-container">
-            <img src="@/assets/images/playas-blog.jpg">
+            <img src="@/assets/images/playas-blog.jpg" class="card-blog-image">
             <div class="card-blog-info">
               <p>{{blog.author}}</p>
               <p>{{blog.createdAt}}</p>
               <p>{{blog.reading_time}}</p>
               <h4>{{blog.title}}</h4>
             </div>
+            <hr>
           </div>
         </div>
       </div>
@@ -40,10 +41,6 @@ export default {
 <style scoped>
   .card-blog{
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 1fr); */
   }
   .card-blog-container{
     position: relative;
@@ -52,18 +49,37 @@ export default {
   }
   .card-blog-container h4{
     position: absolute;
-    top: 10px;
+    top: 16rem;
     left: 10px;
+    color: white;
   }
-  .card-blog-container img{
-    max-width: 25rem;
-    height: 25rem;
-    object-fit: cover;
+  .card-blog-container hr{
+    position: absolute;
+    top: 21rem;
+    left: 10px;
+    width: 23rem;
+    color: white;
   }
   .card-blog-info{
+    display:flex;
     position: absolute;
     top: 30px;
     left: 10px;
+    color: white;
+    text-align: center;
   }
+
+    .card-blog-info p{
+      font-size: 0.8rem;
+      padding-right: 1rem;
+
+  }
+  .card-blog-image{
+    max-width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
 
 </style>
