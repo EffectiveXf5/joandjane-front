@@ -3,7 +3,7 @@
       <div @click="getOneData(blog._id)">
         <div class="card-blog">
           <div class="card-blog-container">
-            <img src="@/assets/images/playas-blog.jpg" class="card-blog-image">
+            <img :src="blog.img" alt="foto blog post" class="card-blog-image">
             <div class="card-blog-info">
               <p>{{blog.author}}</p>
               <p>{{blog.createdAt}}</p>

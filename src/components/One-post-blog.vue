@@ -9,7 +9,7 @@
                 </div>
                 <div class="section__blog-titleContainer">
                     <figure >
-                        <img src="@/assets/images/playas-blog.jpg" alt="" class="section__blog-image">
+                        <img :src="blog.img" alt="foto blog post" class="section__blog-image">
                     </figure>
                     <h3 class="section__blog-title">{{blog.title}}</h3>
                 </div>

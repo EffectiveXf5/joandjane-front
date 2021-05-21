@@ -13,9 +13,8 @@
         <label class="label">Tiempo de lectura:</label>
         <input class="input" type="text" v-model="blog.reading_time" placeholder="Tiempo de lectura">
 
-  <!-- AQUI VA LA IMAGEN
         <label class="label">Imagen</label>
-        <input class="input" type="text" v-model="blog.img"> -->
+        <input class="input" type="file" @change="fotoSelected">
 
         <label class="label">Texto del post:</label>
         <textarea class="input" v-model="blog.description" cols="40" rows="10" placeholder="Descripción del post"></textarea>
@@ -50,6 +49,10 @@ export default {
 
 
   methods: {
+    fotoSelected(event){
+       this.blog.img = "/images/" + event.target.files[0].name;
+    },
+
     sendForm() {
       this.axios.post('/blog/create-blog', this.blog)
         .then( res => {
@@ -61,17 +64,13 @@ export default {
           this.blog.reading_time = '',
           this.blog.description = '',
           this.blog.createdAt = ''
+          this.blog.img = ''
         })
 
         .catch( e => {
           return e.response
         })
     },
-
-    /* clickImg(e) {
-      this.blog.img = e.target.file
-      console.log(this.blog.img)
-    }, */
   }
 }
 
