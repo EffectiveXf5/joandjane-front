@@ -35,7 +35,7 @@ const routes = [
     component: () => import('../views/Blog-global.vue')
   },
   {
-    path: '/blogId',
+    path: '/blogId/:id',
     name: 'Blog-post',
     component: () => import('../views/Blog-post.vue')
   },
