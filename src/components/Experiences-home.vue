@@ -8,12 +8,8 @@
         >
 
             <section class="experiences-container__section">
-                <carousel-slide class="experiences-container__section-article" v-for="(activity, index) in activities" 
-                :key="activity"
-                :index="index"
-                :visibleSlide="visibleSlide"
-                >
-                    <img src="@/assets/images/cares.jpg" alt="">
+                <carousel-slide class="experiences-container__section-article" v-for="(activity, index) in activities" :key="index">
+                    <img :src="activity.img" alt="">
                     <h4>{{activity.title}}</h4>
                     <p>{{activity.sumary}}</p>
                     <p class="reviews-icons">{{activity.reviews.stars}}

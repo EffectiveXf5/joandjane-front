@@ -11,7 +11,7 @@
         </ul>
         <a  href="https://www.virtual.joandjane.es/" id="virtual"> VIRTUAL</a>
         <div id="navegation-icon">
-          <img src="../assets/images/bars-solid.svg" alt="menu-toggle">
+          <img src="/images/bars-solid.svg" alt="menu-toggle">
         </div>
         </nav>
        

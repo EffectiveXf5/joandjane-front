@@ -1,7 +1,7 @@
 <template>
     <div>
        <figure  class="home-award">
-           <img src="../assets/images/futbol-burbuja.jpg" alt="premio">
+           <img src="/images/futbol-burbuja.jpg" alt="premio">
            <figcaption>Imagen premio ganado </figcaption>
        </figure> 
     </div>

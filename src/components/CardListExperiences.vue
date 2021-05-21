@@ -1,7 +1,7 @@
 <template>
     <router-link to="/experienciaId/activity._id">
       <div @click="getOneData(activity._id)">
-        <img src="@/assets/images/cares.jpg">
+        <img :src="activity.img">
         <div class="btn-price btn-container">{{activity.price}}</div>
         <h4>{{activity.title}}</h4>
         <p>{{activity.sumary}}</p>

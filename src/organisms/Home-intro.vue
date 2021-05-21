@@ -1,11 +1,11 @@
 <template>
     <section class="container">
       <figure class="container__img-container">
-        <img src="@/assets/images/sella1.jpg" alt="imagenPrincipal">
+        <img src="/images/sella1.jpg" alt="imagenPrincipal">
       </figure>
 
       <figure class="container__logo-container">
-        <img src="@/assets/images/logo amarillo.png" alt="logo" class="logo">
+        <img src="/images/logo amarillo.png" alt="logo" class="logo">
       </figure>
 
       <article class="container__article">
