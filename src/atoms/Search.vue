@@ -1,8 +1,10 @@
 <template>
   <div class="search-container">
-    <label class="search-container__label">Busca tu experiencia</label>
-    <input class="search-container__input" type="text" placeholder="Encuentra tu experiencia">
-    <i class="fas fa-search "></i>
+    <form @submit.prevent="">
+      <label class="search-container__label">Busca tu experiencia</label>
+      <input class="search-container__input" type="text" placeholder="Encuentra tu experiencia">
+      <button class="search-container__button" type="submit"><i class="fas fa-search "></i></button>
+    </form>
   </div>
 </template>
 
@@ -32,11 +34,16 @@ export default {
     border: 2px solid var(--tertiary-color);
   }
 
-  .search-container i {
+  .search-container__button {
+    border: none;
     padding: 17px;
-    color: white;
     background-color: var(--primary-color);
     border-radius: 0 10px 10px 0;
+    cursor: pointer;
+  }
+
+  .search-container i {
+    color: white;
   }
 
   @media(max-width: 425px) {

@@ -2,55 +2,93 @@
     <main class="experiences-container">
         <h2 class="experiences-container__title"><i class="fas fa-hashtag icon-hashtag"></i>Top Jo&Jane</h2>
 
-        <section class="experiences-container__section">
-            <article class="experiences-container__section-article" v-for="(activity, index) in activities" :key="index">
-                <img src="@/assets/images/cares.jpg" alt="">
-                <h4>{{activity.title}}</h4>
-                <p>{{activity.sumary}}</p>
-                <p class="reviews-icons">{{activity.reviews.stars}}
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </p>
-                <div class="duration-container">Duración: {{activity.duration}}</div>
-            </article>
-        </section>
+        <carousel 
+            @next="next" 
+            @prev="prev"
+        >
 
-        <button @click="next" class="carousel__btn__next">Next</button>
-        <button @click="prev" class="carousel__btn__prev">Prev</button>
+            <section class="experiences-container__section">
+                <carousel-slide class="experiences-container__section-article" v-for="(activity, index) in activities" 
+                :key="activity"
+                :index="index"
+                :visibleSlide="visibleSlide"
+                >
+                    <img src="@/assets/images/cares.jpg" alt="">
+                    <h4>{{activity.title}}</h4>
+                    <p>{{activity.sumary}}</p>
+                    <p class="reviews-icons">{{activity.reviews.stars}}
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </p>
+                    <div class="duration-container">Duración: {{activity.duration}}</div>
+                </carousel-slide>
+            </section>
+        </carousel>
     </main>
 </template>
 
 <script>
+import Carousel from './Carousel/Carousel.vue'
+import CarouselSlide from './Carousel/CarouselSlide.vue'
+
 export default {
     name: 'Experiences-home',
 
+    components: { 
+        Carousel,
+        CarouselSlide
+    },
+
     data() {
-    return {
-      activities: []
-    }
+        return {
+            activities: [],
+
+            visibleSlide: 4
+        }
+    },
+
+    computed: {
+        slidesLength() {
+            return this.activities.length;
+        },
+    },
+
+    created() {
+        this.listActivities()
+    },
+
+    methods: {
+        listActivities() {
+            this.axios.get('/activity')
+                .then( res => {
+                    console.log(res.data)
+                    this.activities = res.data;
+            })
+
+            .catch( e => {
+                console.log(e.response)
+            })
+    },
+
+    next() {
+        if(this.visibleSlide >= this.slides.length - 1) {
+            this.visibleSlide = 0;
+        } else {
+            this.visibleSlide++;
+        }
+    },
+
+    prev() {
+        if(this.visibleSlide <= 0) {
+            this.visibleSlide >= this.slides.length - 1;
+        } else {
+            this.visibleSlide--;
+        }
+    },
   },
-
-  created() {
-    this.listActivities()
-  },
-
-  methods: {
-    listActivities() {
-      this.axios.get('/activity')
-        .then( res => {
-          console.log(res.data)
-          this.activities = res.data;
-        })
-
-        .catch( e => {
-          console.log(e.response)
-        })
-    }
-  },
-
 }
 </script>
 

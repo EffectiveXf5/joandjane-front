@@ -3,7 +3,7 @@
         <section class="main__section">
             <article class="main__section-article">
                 <figure>
-                    <img src="@/assets/images/cares.jpg" alt="">
+                    <img :src="activity.img" alt="">
                 </figure>
 
                 <h3 class="section__article-title">{{activity.title}}</h3>
