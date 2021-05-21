@@ -48,9 +48,6 @@
         <label class="label">Duración:</label>
         <input class="input" v-model="activity.duration" type="text">
 
-        <label class="label">Imagen</label>
-        <input class="input" type="text" v-model="activity.img">
-
         <label class="label">Cancelación:</label>
         <input class="input" v-model="activity.cancelation" type="text">
 
@@ -121,6 +118,8 @@
         <label>Comentario:</label>
         <textarea class="input" v-model="activity.reviews.comment" cols="30" rows="10"></textarea>
 
+        <input type="file" @change="fotoSelected">
+
         <button class="btn-submit" type="submit">Enviar</button>
       </form>
     </section>
@@ -164,6 +163,9 @@ export default {
 
 
   methods: {
+    fotoSelected(event){
+       this.activity.img = "/images/" + event.target.files[0].name;
+    },
     sendForm() {
       this.axios.post('/activity/create-activity', this.activity)
         .then( res => {
@@ -171,6 +173,7 @@ export default {
           this.activity = '',
           this.activity.title = '',
           this.activity.price = '',
+          this.activity.img = '',
           this.activity.destination = '',
           this.activity.type = '',
           this.activity.sumary = '',
