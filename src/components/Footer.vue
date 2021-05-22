@@ -40,7 +40,7 @@
             </section>
             <section class=footer_section-social>
                 <article class="footer__section-joandjane">
-                    <img src="/images/images/logo negro.png" alt="logo joandjane" class="logo-footer-jo">
+                    <img src="/images/logo negro.png" alt="logo joandjane" class="logo-footer-jo">
                 </article>
                 <hr>
                 <article class="footer__section-google">

@@ -75,10 +75,11 @@ export default {
 .section__blog-title{
     position: absolute;
     top: 10px;
-    font-size: 3rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     color: ivory;
+    text-align: left;
 }
 .section__blog-image{
     filter: brightness(0.6);
@@ -113,7 +114,7 @@ export default {
 
     .section__blog-title{
         position: absolute;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
         top: 10px;
