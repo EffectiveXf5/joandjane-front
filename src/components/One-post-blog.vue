@@ -71,6 +71,7 @@ export default {
     display: inline-block;
     text-align: left;
     margin-bottom:1rem;
+    max-height: 50%;
 }
 .section__blog-title{
     position: absolute;
@@ -118,7 +119,6 @@ export default {
         padding-left: 3rem;
         padding-right: 3rem;
         top: 10px;
-        color: ivory;
     }
     .section__blog-image{
         filter: brightness(0.6);
@@ -151,18 +151,16 @@ export default {
         padding-left: 2rem;
         padding-right: 2rem;
         top: 10px;
-        color: ivory;
     }
     .section__blog-image{
-        filter: brightness(0.6);
         max-height: 15rem;
         width: auto;
     }
 
     .section__blog-description{
         text-align: justify;
-        margin-right: 3rem;
-        margin-left: 3rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
         font-size: 0.9rem;
     }
 }

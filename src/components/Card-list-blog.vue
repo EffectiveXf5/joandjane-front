@@ -47,12 +47,31 @@ export default {
 .main__section{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top:2rem;
   row-gap: 1rem;
-  /* column-gap:2rem; */
-  align-content: center;
+  column-gap: 1rem;
   width: 70%;
   margin:auto;
 }
 
+@media (min-width: 1000px) {
+
+}
+
+@media (max-width: 999px) and (min-width: 425px) {
+  .main__section{
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+
+  }
+}
+
+@media (max-width: 424px) {
+    .main__section{
+    display:grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+
+  }
+}
 </style>
