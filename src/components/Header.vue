@@ -6,7 +6,7 @@
         <router-link to='/' id="titulo-header">JO&JANE</router-link>  
         <ul v-if="!mobileview" class="menu-nav">
           <li v-for="(link, index) in navLinks" :key="index">
-            <router-link :to="link.path" id="links"> {{link.name}} </router-link>
+            <router-link :to="{path:link.path, hash:link.hash}" id="links"> {{link.name}} </router-link>
           </li>
         </ul>
         <a  href="https://www.virtual.joandjane.es/" id="virtual"> VIRTUAL</a>
@@ -28,8 +28,9 @@ export default {
       showNav:false,
         navLinks: [
   {
-    path: '/destinos',
+    path: '/',
     name: 'DESTINOS',
+    hash: '#destinations'
   },
   {
     path: '/experiencias',
@@ -37,7 +38,8 @@ export default {
   },
   {
     path: '/',
-    name: 'QUIÉNES SOMOS'
+    name: 'QUIÉNES SOMOS',
+    hash: '#about-us'
   },
   {
     path: '/blog',

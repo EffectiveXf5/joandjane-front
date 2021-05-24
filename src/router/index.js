@@ -12,7 +12,7 @@ const routes = [
   {
     path: '/destinos',
     name: 'Destinations',
-    component: () => import('../views/Destinations.vue')
+    component: () => import('../views/Home.vue')
   },
   {
     path: '/destinoID',
@@ -54,6 +54,13 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
+  scrollBehavior: function(to, from, savedPosition) {
+    if (to.hash) {
+      return {selector: to.hash}
+    } else {
+      return {x: 0, y: 0}
+    }
+  },
   routes
 })
 

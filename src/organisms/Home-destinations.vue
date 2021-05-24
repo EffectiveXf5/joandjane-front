@@ -1,5 +1,5 @@
 <template>
-     <div class="home-destinatios">
+     <div class="home-destinatios" id="destinations">
       <h2>Destinos</h2>
         <!--aqui va el grid de los destinos-->
     </div>
