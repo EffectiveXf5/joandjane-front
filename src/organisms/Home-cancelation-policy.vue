@@ -46,6 +46,7 @@ export default {
   padding-left:2rem;
   padding-right:7rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .cajaVerde{
   position: relative;
@@ -56,6 +57,7 @@ export default {
   padding-left:7rem;
   padding-right:2rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .remo{
   position: absolute;
@@ -68,10 +70,69 @@ export default {
 }
 
 @media (max-width: 999px) and (min-width: 425px) {
-  
+  .home-policy{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-policy h2{
+    text-align: center;
+  }
+  .home-policy p{
+    font-size: 1rem;
+  }
+  .cajaRosa{
+    max-width: 40rem;
+    height: 7.5rem;
+    padding-right:2rem;
+    text-align: justify;
+  }
+  .cajaVerde{
+    max-width: 40rem;
+    height: 7.5rem;
+    padding-left:2rem;
+    text-align: justify;
+  }
+  .remo{
+    display:none;
+  }
 }
 
 @media (max-width: 424px) {
-  
+    .home-policy{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-policy h2{
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .home-policy p{
+    font-size: 0.7rem;
+  }
+  .cajaRosa{
+    max-width: 25rem;
+    height: 6rem;
+    padding-right:1rem;
+    padding-left: 1rem;
+    text-align: justify;
+  }
+  .cajaVerde{
+    max-width: 25rem;
+    height: 6rem;
+    padding-right:1rem;
+    padding-left: 1rem;
+    text-align: justify;
+  }
+  .remo{
+    display:none;
+  }
 }
 </style>
