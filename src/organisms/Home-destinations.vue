@@ -48,16 +48,16 @@ export default {
 }
 
 .home__destinations-container{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .destination-name{
-    position: absolute;
-    top: 20px;
-    color: white;
-    text-align: center;
+  position: absolute;
+  top: 17rem;
+  color: white;
 }
 
 
