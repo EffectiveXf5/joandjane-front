@@ -1,5 +1,5 @@
 <template>
-     <div class="home-destinations">
+     <div class="home-destinations" id="destinations">
         <h2><i class="fas fa-hashtag icon-hashtag"></i>Destinos Jo&Jane</h2>
         <div class="home-destinations-grid">
           <div class="home__destinations-container">
