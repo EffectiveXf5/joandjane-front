@@ -1,8 +1,7 @@
 <template>
     <div>
-       <figure  class="home-award">
-           <img src="/images/futbol-burbuja.jpg" alt="premio">
-           <figcaption>Imagen premio ganado </figcaption>
+       <figure class="home-award">
+           <img src="/images/premio-web.png" alt="premio" class="home-image">
        </figure> 
     </div>
 </template>
@@ -15,5 +14,22 @@ export default {
 </script>
 <style scoped>
 .home-award{
-width:50%;}
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (max-width: 999px) and (min-width: 425px) {
+  .home-image{
+    width: 13rem;
+  }
+}
+
+@media (max-width: 424px) {
+  .home-image{
+    width: 7rem;
+  }
+}
 </style>
