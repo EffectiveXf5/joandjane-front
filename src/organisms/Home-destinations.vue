@@ -1,7 +1,32 @@
 <template>
-     <div class="home-destinatios">
-      <h2>Destinos</h2>
-        <!--aqui va el grid de los destinos-->
+     <div class="home-destinations">
+        <h2>#Destinos Jo&Jane</h2>
+        <div class="home-destinations-grid">
+          <div class="home__destinations-container">
+            <img src="/images/destinos-arriondas.jpg" alt="Arriondas">
+            <h3 class="destination-name">ARRIONDAS</h3>
+          </div>
+          <div class="home__destinations-container">
+            <img src="/images/destinos-gijon.jpg" alt="gijon">
+            <h3 class="destination-name">GIJÓN</h3>
+          </div>
+          <div class="home__destinations-container">
+            <img src="/images/destinos-llanes.jpg" alt="llanes">
+            <h3 class="destination-name">LLANES</h3>
+          </div>
+          <div class="home__destinations-container">
+            <img src="/images/destinos-ribadesella.jpg" alt="Ribadesella">
+            <h3 class="destination-name">RIBADESELLA</h3>
+          </div>
+          <div class="home__destinations-container">
+            <img src="/images/destinos-villaviciosa.jpg" alt="Villaviciosa">
+            <h3 class="destination-name">VILLAVICIOSA</h3>
+          </div>
+          <div class="home__destinations-container">
+            <img src="/images/destinos-cangas-onis.jpg" alt="Cangas de Onis">
+            <h3 class="destination-name">CANGAS DE ONÍS</h3>
+          </div>
+        </div>
     </div>
 </template>
 
@@ -14,8 +39,29 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.home-destinations-grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin:auto;
+}
+
+.home__destinations-container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.destination-name{
+    position: absolute;
+    top: 20px;
+    color: white;
+    text-align: center;
+}
+
 
 </style>
+
 
 
