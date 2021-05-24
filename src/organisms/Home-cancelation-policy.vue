@@ -40,7 +40,7 @@ export default {
 }
 .cajaRosa{
   position: relative;
-  max-width: 35rem;
+  max-width: 30rem;
   height: 8rem;
   background: #F5DAEC;
   padding-left:2rem;
@@ -50,7 +50,7 @@ export default {
 }
 .cajaVerde{
   position: relative;
-  max-width: 35rem;
+  max-width: 30rem;
   height: 8rem;
   background: #DEE8EA;
   text-align: right;

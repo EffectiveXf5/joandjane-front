@@ -1,7 +1,11 @@
 <template>
      <div class="home-us" id="about-us">
-          <h1 class="activitie-title">¿Quienes somos?</h1>
-          <video src="" alt="video de quienes somos"></video>
+          <div class="about-title">
+               <h2><i class="fas fa-hashtag icon-hashtag"></i>¿Quiénes somos?</h2>
+          </div>
+          <div class="about-video">
+               <video src="/video/video-jojane.mp4" class="video-container" controls></video>
+          </div>
      </div>
 </template>
 
@@ -12,6 +16,21 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.home-us{
+  margin-bottom:2rem;
+}
+.about-title{
+  width: 95%;
+  margin: auto;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  font-weight: bolder;
+}
+.about-video{
+     text-align: center;
+}
+.video-container{
+     width: 80%;
+}
 </style>
