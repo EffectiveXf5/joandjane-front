@@ -1,14 +1,14 @@
 <template>
-    <main class="experiences-container">
-        <h2 class="experiences-container__title"><i class="fas fa-hashtag icon-hashtag"></i>Inspiración para viajar por Asturias</h2>
+    <main class="blogs-container">
+        <h2 class="blogs-container__title"><i class="fas fa-hashtag icon-hashtag"></i>Inspiración para viajar por Asturias</h2>
 
         <carousel 
             @next="next" 
             @prev="prev"
         >
 
-            <section class="experiences-container__section">
-                <carousel-slide class="experiences-container__section-article" v-for="(blog, index) in blogs" :key="index">
+            <section class="blogs-container__section">
+                <carousel-slide class="blogs-container__section-article" v-for="(blog, index) in blogs" :key="index">
                     <img :src="blog.img" alt="">
                     <h4>{{blog.title}}</h4>
                 </carousel-slide>
@@ -80,49 +80,107 @@ export default {
 </script>
 
 <style scoped>
-
-    .experiences-container {
-        width: 95%;
-        margin: auto;
+    .blogs-container{
+        margin-bottom: 2rem;
     }
 
-    .experiences-container__section {
+    .blogs-container__title {
         width: 95%;
         margin: auto;
+        padding-bottom: 1rem;
+    }
+
+    .blogs-container__section {
         display: flex;
+        margin-left: 5rem;
+    }
+
+    .blogs-container__section-article {
+        position: relative;
+        display: flex;
+        align-items: center;
         justify-content: center;
+        margin-right: 2rem;
+        border: solid #969696 1px;
+        padding: 5px;
+        color:var(--secondary-color);
     }
 
-    .experiences-container__section-article {
-        width: 350px;
-        height: 450px;
-        margin: 0 10px;
+    .blogs-container__section-article:hover {
+        box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        background-color: rgb(255, 204, 51);
     }
 
-    .experiences-container__section-article:hover {
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        transition: 1s;
+    .blogs-container__section-article img{
+        height: 23rem;
+        object-fit: cover;
+        max-width: 23rem;
+        filter: brightness(0.7);
     }
 
-    .experiences-container__section-article img {
-        width: inherit;
+    .blogs-container__section-article h4{
+        position: absolute;
+        top: 18rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        background-color: rgb(255, 204, 51);
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 10px;
     }
 
-    .experiences-container__section-article h4 {
+@media (min-width: 1000px) {
+
+}
+
+@media (max-width: 999px) and (min-width: 425px) {
+
+    .blogs-container__section {
+        margin-left: 3rem;
+    }
+
+    .blogs-container__section-article {
+        margin-right: 1rem;
+    }
+
+    .blogs-container__section-article img{
+        height: 16rem;
+        max-width: 16rem;
+    }
+
+    .blogs-container__section-article h4{
         font-size: 0.9rem;
-        padding: 5px 5px;
+        top: 10rem;
+    }
+}
+
+@media (max-width: 424px) {
+    .blogs-container__section {
+        margin-left: 1.5rem;
     }
 
-    .experiences-container__section-article p {
-        font-size: smaller;
-        padding: 5px 5px;
-        color: var(--tertiary-color);
+    .blogs-container__section-article {
+        margin-right: 0.5rem;
+    }
+    .blogs-container__section-article img{
+        height: 12rem;
+        max-width: 12rem;
     }
 
-    .experiences-container__section-article i {
-        padding: 1px 1px;
-        color: var(--primary-color);
+    .blogs-container__section-article h4{
+        font-size: 0.7rem;
+        top: 8rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.3rem;
+        padding-top: 0.3rem;
+        margin-right: 15px;
+        margin-left: 15px;
     }
-    
+}
 
 </style>

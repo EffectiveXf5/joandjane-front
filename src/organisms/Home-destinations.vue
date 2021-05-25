@@ -73,7 +73,7 @@ export default {
 .destination-name{
   position: absolute;
   top: 17rem;
-  color: white;
+  color: cornsilk;
 }
 
 
