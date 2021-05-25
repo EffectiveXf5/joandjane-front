@@ -57,11 +57,10 @@
                     </div>
                 </div>
             </article>
-        </section>
-
-        <section>
-            <h3 class="section__article-title">Localización</h3>
-            <img :src="activity.location" alt="">
+            <article>
+                <h3 class="section__article-title">Localización</h3>
+                <img :src="activity.location" alt="">
+            </article>
         </section>
     </main>
 </template>
@@ -199,4 +198,22 @@ export default {
         padding: 6px;
     }
 
+
+@media (min-width: 1000px) {
+
+}
+
+@media (max-width: 999px) and (min-width: 425px) {
+    .main__section {
+        width: 90%;
+        margin: 40px;
+    }
+}
+
+@media (max-width: 424px) {
+    .main__section {
+        width: 80%;
+        margin: 40px;
+    }
+}
 </style>
