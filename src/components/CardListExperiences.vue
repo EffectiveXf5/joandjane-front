@@ -12,7 +12,7 @@
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
         </p>
-        <div class="duration-container">Duración: {{activity.duration}}</div>
+        <p class="duration-container"><i class="fas fa-clock"></i>Duración: {{activity.duration}}</p>
       </div>
     </router-link>
 </template>

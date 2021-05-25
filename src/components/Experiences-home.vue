@@ -11,7 +11,7 @@
                 <carousel-slide class="experiences-container__section-article" v-for="(activity, index) in activities" :key="index">
                     <img :src="activity.img" alt="">
                     <h4>{{activity.title}}</h4>
-                    <p>{{activity.sumary}}</p>
+                    <p >{{activity.sumary}}</p>
                     <p class="reviews-icons">{{activity.reviews.stars}}
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -19,7 +19,9 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </p>
-                    <div class="duration-container">Duración: {{activity.duration}}</div>
+                    <div class="duration-container">
+                        <p ><i class="fas fa-clock"></i>Duración: {{activity.duration}}</p>
+                    </div>
                 </carousel-slide>
             </section>
         </carousel>
@@ -91,47 +93,163 @@ export default {
 <style scoped>
 
     .experiences-container {
+        margin-bottom: 2rem;
+    }
+
+    .experiences-container__title {
         width: 95%;
         margin: auto;
+        padding-bottom: 1rem;
     }
 
     .experiences-container__section {
-        width: 95%;
-        margin: auto;
         display: flex;
-        justify-content: center;
+        margin-left: 5rem;
     }
 
     .experiences-container__section-article {
-        width: 350px;
-        height: 450px;
         margin: 0 10px;
+        border: solid #969696 1px;
+        padding: 5px;
+        max-width: 24rem;
+        height: 22rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .experiences-container__section-article:hover {
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        transition: 1s;
+        box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
     }
 
     .experiences-container__section-article img {
-        width: inherit;
+        max-height: 11rem;
+        object-fit: cover;
+        width: 23rem;
     }
 
     .experiences-container__section-article h4 {
         font-size: 0.9rem;
-        padding: 5px 5px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
     }
 
     .experiences-container__section-article p {
         font-size: smaller;
-        padding: 5px 5px;
+        padding-left:5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        overflow:hidden; 
+        text-overflow:ellipsis;
+        display:-webkit-box; 
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:2;
         color: var(--tertiary-color);
     }
 
-    .experiences-container__section-article i {
-        padding: 1px 1px;
+    .fa-star {
         color: var(--primary-color);
+        padding-top: 1rem;
     }
-    
+    .duration-container{
+        margin-top: 1rem;
+        width: 12rem;
+        padding-top:0.1rem;
+        padding-left: 0.1rem;
+        text-align: left;
+    }
+    .duration-container i{
+        color: black;
+        padding-right:5px;
+    }
+    .duration-container p{
+        color: black;
+        font-size: 0.8rem;
+    }
 
+
+@media (min-width: 1000px) {
+
+}
+
+@media (max-width: 999px) and (min-width: 425px) {
+
+    .experiences-container__section {
+        margin-left: 3rem;
+    }
+
+    .experiences-container__section-article {
+        max-width: 20rem;
+        height: 18rem;
+    }
+
+    .experiences-container__section-article img {
+        max-height: 8rem;
+        width: 19rem;
+    }
+
+    .experiences-container__section-article h4 {
+        font-size: 0.8rem;
+    }
+
+    .fa-star {
+        padding-top:5px;
+        color: var(--primary-color);
+        width: 0.9rem;
+    }
+    .duration-container{
+        width: 11rem;
+        padding-left: 0.1rem;
+    }
+    .duration-container i{
+        color: black;
+        padding-right:5px;
+    }
+    .duration-container p{
+        color: black;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 424px) {
+    .experiences-container__section {
+        margin-left: 1rem;
+    }
+
+    .experiences-container__section-article {
+        max-width: 16rem;
+        height: 14rem;
+    }
+
+    .experiences-container__section-article img {
+        max-height: 6rem;
+        width: 15rem;
+    }
+
+    .experiences-container__section-article h4 {
+        font-size: 0.6rem;
+    }
+
+    .experiences-container__section-article p {
+        font-size: 0.5rem;
+    }
+
+    .fa-star {
+        padding-top:5px;
+        color: var(--primary-color);
+        width: 0.8rem;
+    }
+    .duration-container{
+        width: 8rem;
+        padding-left: 0.1rem;
+    }
+    .duration-container i{
+        padding-right:5px;
+    }
+    .duration-container p{
+        font-size: 0.5rem;
+    }
+}
 </style>
