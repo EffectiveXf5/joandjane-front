@@ -53,6 +53,7 @@ export default {
     padding-top: 5px;
     padding-right: 5px;
     padding-left: 5px;
+    color: var(--secondary-color);
   }
 
   .main__section-article p {
@@ -81,11 +82,11 @@ export default {
     text-align: left;
   }
   .duration-container i{
-    color: black;
+    color: var(--secondary-color);
     padding-right:5px;
   }
   .duration-container p{
-    color: black;
+    color: var(--secondary-color);
     font-size: 0.8rem;
   }
   .btn-container {
@@ -105,7 +106,7 @@ export default {
   @media(max-width: 999px) and (min-width: 425px) {
     .main__section-article img{
       max-width:100%;
-      width:fill;
+      width: stretch;
       height: 18rem;
     }
 
@@ -124,11 +125,11 @@ export default {
       padding-left: 0.1rem;
     }
     .duration-container i{
-      color: black;
+      color: var(--secondary-color);
       padding-right:5px;
     }
     .duration-container p{
-      color: black;
+      color: var(--secondary-color);
       font-size: 0.7rem;
     }
 
@@ -147,7 +148,7 @@ export default {
     .main__section-article img{
       max-height: 10rem;
       max-width: 100%;
-      width: fill;
+      width: stretch;
     }
 
     .main__section-article h4{
