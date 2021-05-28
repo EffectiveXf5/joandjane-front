@@ -4,8 +4,6 @@
      <Search/>
      <Experiences-home />
      <Home-destinations/>
-     <!-- <Card-experience/> -->
-     <!-- <CardListExperiences/> -->
      <Home-cancelation-policy/>
      <Home-about/>
      <Home-blog-all/>
@@ -21,9 +19,7 @@ import ExperiencesHome from '../components/Experiences-home'
 import HomeCancelationPolicy from '../organisms/Home-cancelation-policy'
 import HomeAbout from '../organisms/Home-about'
 import ImagesAwards from '../atoms/Images-awards.vue'
- import HomeBlogAll from '../organisms/Home-blog-all.vue'
- //import CardListExperiences from '../components/CardListExperiences.vue'
-// import CardExperience from '../components/Card-experience.vue'
+import HomeBlogAll from '../organisms/Home-blog-all.vue'
 
 export default {
   name: 'Home',
@@ -36,8 +32,7 @@ export default {
     HomeAbout,
     ImagesAwards,
     HomeBlogAll,
-    // CardExperience,
-    //CardListExperiences
+
   }
 }
 </script>
